@@ -1,0 +1,258 @@
+ ______________________________________________________________________
+>                                                                      <
+>                         PICos18 release 2.10                         <
+>                                                                      <
+>             PICos18 - Real-time kernel for PIC18 family              <
+>                                                                      <
+>                                                                      <
+> www.picos18.com                                    www.pragmatec.net <
+>______________________________________________________________________<
+
+
+
+
+18th August 2006   - PICos18 release 2.10
+  * improvment     : *.lkr
+                     fixed a bug about stack size.
+                     alarm.c
+                     Improved alarm accuracy.
+  * bug fixing     : Added PIcos18*.o files under linker directory.
+                     
+
+31th July 2006     - PICos18 release 2.09
+  * improvment     : pro_man.c
+                     fixed a bug in TerminateTask (MASK_ID<->MASK_STATE).
+
+
+1st July 2006      - PICos18 release 2.08
+  * improvment     : Refactor the kernel.asm code, and enrich the comments.
+                     Macro definitions added in pro_man.h (like MASK_ID).
+                     Printf function in tutorial has been casted to avoid
+                     "type qualifier mismatch" warning.
+
+
+17th May 2006      - PICos18 release 2.07
+  * improvment     : Let the linker place the global variables and 
+                     stack areas anywhere in the "task" section in RAM.
+                     Removed the "temp" variable from the even_man.c.
+                     Added the new bat file to rebuild the library 
+                     (knopf sources).
+
+
+21th March 2006    - PICos18 release 2.06
+  * C18 v3.02      : Modified startup files (PICosxx.o) according to 
+                     the new compiler version.
+  * improvment     : Modified all linker script files to avoid variable
+                     overlay in RAM (C18 bug).
+
+
+20th January 2006  - PICos18 release 2.05
+  * minor updates  : Removed functions (like _SetEvent)  in alarm.c.
+  * improvment     : Removed the temp variables in pro_man.c.
+                     Added the IncCounter & GetCounterValue in alarm.c.
+                     Added "kernelState |= SERVICES;" in AddOneTick()
+                     for Round Robin management.
+
+
+29th Octobre 2005  - PICos18 release 2.04
+  * minor updates  : New features included
+                     * C18 v3 compliant
+                     * Added RESET_ON_KERNEL compiler option
+                       in case of stack overflow.
+                     * "save" and "nosave" statement for both
+                       Interrupt routines (C18 v3 compliant)
+                     * Changed Timer0 parameters (define.h)
+                     * Added new linker scripts
+                     * Added critical section in Event Manager
+                     * Added startup source code (/Kernel)
+
+
+1st September 2005 - PICos18 release 2.04
+  * improvment     : int.c
+                     Added the MATH_DATA section in the InterruptVectorL
+                     to let people use "long" type and math routines.
+                     /Linker
+                     Added many new lkr files.
+                     Included bootloader capability.
+                     /Kernel
+                     Provide the PICos18.lib with new C18 v2.42.
+
+1st April 2005     - PICos18 release 2.03
+  * bug fixing     : alarm.c
+                     Suppress "kernelState |= SERVICES;" at the end of.
+                     the file to avoid a systematic switch context.
+
+27th March 2005    - PICos18 release 2.02
+  * bug fixing     : kernel.asm
+                     Added "movlb 0" after every GLOBAL symbol.
+                     tascdesc.c
+                     Fixed _RESOURCENUMBER definition.
+
+10th March 2005    - PICos18 release 2.01
+  * bug fixing     : kernel.asm
+                     Modified "_restore_start_adr" to let TerminateTask
+                     runs properly.
+
+27th February 2005 - PICos18 release 2.00
+  * major updates  : New PICos18 release with these new features included
+                     * upto 16 tasks present in your application
+                     * 15 different priorities
+                     * round-robin scheduler for task with same priority
+                     * C18 stack management (one private stack per task)
+                     * resource management
+                     * project settings in only one file (tascdesc.c)
+                     * reentrancy functions
+                     * task "forkable" from the same task code
+                     * multiple activation for basic tasks
+                     * ICD2 compliant
+                     * alarm callback
+                     * custom alarm events
+                     * pre-initialized variables
+                     * stack overflow detection
+                     * interruptible kernel
+                     * slow and fast interrupt management
+                     * one linker script per chip
+                     * software frequency settings
+
+10th August 2004   - PICos18 release 1.23
+  * bug fixing     : kernel.asm
+                     Added "banksel id_tsk_run" in _sched.
+
+
+1st July 2004      - PICos18 release 1.22
+  * new feature    : kernel.asm
+                     Modified to use ICD2 in debug mode.
+                     main.c
+                     Setup Config bit fields at the top of the file.
+                     alarm.c
+                     Added RemoveTaskAlarms to remove all the alarms
+                     attached to one task (TASKID is a parameter).
+                     LICENSE.TXT
+                     Modified the GPL banner to be able to design
+                     commercial projets without being forced to provide
+                     code sources.
+
+
+2d April 2004      - PICos18 release 1.21
+  * new feature    : taskdesc.c
+                     First task disabled by default.
+                     Modified comments of the stack address.
+
+
+25th February 2004 - PICos18 release 1.20
+  * new feature    : All the files
+                     Hardware stack management modified.
+                     Now each task has full access to the entier
+                     hardware stack (31 successive calls).
+                     Suppressed task.h in PICos18.
+
+
+03rd August 2003   - PICos18 release 1.11
+  * new feature    : All the files
+                     Added device.inc and device.h in PICos18
+                     to specify everything target specific.
+                     taskdesc.c
+                     Use now the ID of the task defined in task.h.
+                     kernel.asm & task_led.c
+                     Added a STACK_SIZE define to modify the size
+                     of the tempdata area for each task.
+  * bug correction : pro_man.c
+                     Fixed a bug in TerminateTask & ChainTask
+                     (original address was not restored properly).
+
+
+10th May 2003      - PICos18 release 1.10
+  * bug correction : kernel.asm
+                     Added STATUS and BSR storage management.
+                     pro_man.c / pro_man.h
+                     Store STATUS in SAVE_STK_PTR.
+                     Store BSR in CGI macro.
+                     timer.c
+                     Fixed a bug in the while loop.
+
+
+10th March 2003    - PICos18 release 1.09
+  * bug correction : timer.c
+                     SetEvent bug fixed.
+
+
+12th February 2003 - PICos18 release 1.08
+  * improvement    : pro_man.h
+                     pro_man.c
+                     kernel.asm
+                     Modify CGI/SGI macro to allow services call
+                     from ISR.
+
+
+2d February 2003  -  PICos18 release 1.07
+  * improvement    : pro_man.h
+                     taskdesc.c
+                     Add DeclareRAM(RamStartAddress) macro
+                     in order to let the linker solve the 
+                     data & code section symbols.
+  * bug correction : kernel.asm
+                     Modify the call_from update (add BSR selection).
+                     even_man.c
+                     alarm.c
+                     pro_man.c
+                     Add forgotten SGI in case of immediate return.
+
+
+26th January 2003 -  PICos18 release 1.06
+  * improvement    : all the c, asm and h files.
+                     pic18f452.lkr
+                     Replace fixed SECTIONS by relocatable SECTIONS.
+
+23th January 2003 -  PICos18 release 1.05
+  * bug correction : alarm.c
+                     alarm.h
+                     Add "StatusType Delay40MHz(unsigned int us)" function.
+
+10th January 2003 -  PICos18 release 1.04
+  * bug correction : int.asm
+                     kernel.asm
+                     alarm.c
+                     boot.c
+                     even_man.c
+                     int_man.c
+                     main.c
+                     pro_man.c
+                     taskdesc.c
+                     timer.c
+                     tsk_led.c
+                     Remove the LIST directives in asm files.
+                     Replace #include <pic...h> by "kernel.h".
+                     Suppress the #include <pic...h> in *.asm & *.c.
+                     Check #include "pro_man.h" presence in every files.
+                     Add INFINITIVE alarm feature to use an alarm forever
+                     (cycle = 0 by definition).
+
+11th November 2002-  PICos18 release 1.03
+  * bug correction : alarm.c
+                     even_man.c
+                     kernel.asm
+                     pro_man.c
+                     pro_man.h
+                     timer.c
+                     Kernel and services are not interruptible, 
+                     so I need to add calls to CGI & SGI macros
+                     (CGI/SGI for Clear/Set General Interrupt).
+
+10th November 2002-  PICos18 release 1.02
+  * bug correction : timer.c
+                     The wrong condition "if (alarm_ptr->flag > 1)"
+                     is not enough to set an EVENT.
+                     Replaced by "if (alarm_ptr->flag & ACTIVATETASK)".
+
+
+2d  November 2002 -  PICos18 release 1.01
+  * bug correction : alarm.h
+                     MPLAB-C18 demo compiler v1.00.31
+                     is not able to compute typedef &
+                     struct in the same line.
+
+
+1st November 2002 -  PICos18 release 1.0
+  * initial release
+
+

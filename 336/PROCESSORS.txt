@@ -1,0 +1,30 @@
+ ______________________________________________________________________
+>                                                                      <
+>                         PICos18 release 2.10                         <
+>                                                                      <
+>             PICos18 - Real-time kernel for PIC18 family              <
+>                                                                      <
+>                                                                      <
+> www.picos18.com                                    www.pragmatec.net <
+>______________________________________________________________________<
+
+
+
+Here's a list of processors tested with this release:
+-----------------------------------------------------
+
+PIC18C252
+PIC18F252
+PIC18F258
+PIC18F452
+PIC18F458
+PIC18F1220
+PIC18F1320
+PIC18F2220
+PIC18F2320
+PIC18F2620
+PIC18F4620
+PIC18F4680
+PIC18F6620
+PIC18F8720
+

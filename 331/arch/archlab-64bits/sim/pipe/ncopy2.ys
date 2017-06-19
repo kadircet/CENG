@@ -1,0 +1,92 @@
+#/* $begin ncopy-ys */
+##################################################################
+# ncopy.ys - Copy a src block of len words to dst.
+# Return the number of positive words (>0) contained in src.
+#
+# Include your name and ID here.
+# Kadir CETINKAYA e2036457
+#
+# Describe how and why you modified the baseline code.
+#
+##################################################################
+# Do not modify this portion
+# Function prologue.
+# %rdi = src, %rsi = dst, %rdx = len
+ncopy_linear:
+	xorq %rax, %rax
+	jmp lin_test
+lin_loop:
+	mrmovq (%rdi), %r10
+	rmmovq %r10, (%rsi)
+	iaddq $-1, %rdx
+	iaddq $8, %rsi
+	iaddq $8, %rdi
+	andq %r10, %r10
+	jle lin_test
+	iaddq $1, %rax
+lin_test:
+	andq %rdx, %rdx
+	jg lin_loop
+	ret
+
+ncopy:
+##################################################################
+# You can modify this portion
+	# Loop header
+	irmovq $3, %r10
+	pushq %rbx
+	irmovq $1, %rbx
+	pushq %rdx
+	andq %rdx, %r10
+	pushq %r10
+	rrmovq %r10, %rdx
+	call ncopy_linear
+	popq %r10
+	popq %rdx
+	subq %r10, %rdx
+	jmp test
+
+Loop:	
+	mrmovq (%rdi), %r8	# read val from src...
+	rmmovq %r8, (%rsi)	# ...and store it to dst
+	mrmovq 8(%rdi), %r9
+	rmmovq %r9, 8(%rsi)
+	mrmovq 16(%rdi), %r10
+	rmmovq %r10, 16(%rsi)
+	mrmovq 24(%rdi), %r11
+	rmmovq %r11, 24(%rsi)
+	iaddq $-4, %rdx		# len-=4
+	iaddq $32, %rdi		# src+=4*8
+	iaddq $32, %rsi		# dst+=4*8
+
+	xorq %r12, %r12
+	andq %r8, %r8
+	cmovg %rbx, %r12
+	addq %r12, %rax		# count+=r8>0
+
+	xorq %r12, %r12
+	andq %r9, %r9
+	cmovg %rbx, %r12
+	addq %r12, %rax
+
+	xorq %r12, %r12
+	andq %r10, %r10
+	cmovg %rbx, %r12
+	addq %r12, %rax
+
+	andq %r11, %r11
+	cmovg %rbx, %r12
+	addq %r12, %rax
+test:
+	andq %rdx,%rdx		# len > 0?
+	jg Loop			# if so, goto Loop:
+	popq %rbx
+##################################################################
+# Do not modify the following section of code
+# Function epilogue.
+Done:
+	ret
+##################################################################
+# Keep the following label at the end of your function
+End:
+#/* $end ncopy-ys */

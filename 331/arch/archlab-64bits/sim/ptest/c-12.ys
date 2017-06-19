@@ -1,0 +1,27 @@
+	irmovq Stack1,%rsp
+	irmovq rtnpt,%rdx
+	rmmovq %rdx,(%rsp)   # Put return point on top of Stack1
+	irmovq Stack2,%rax
+	rmmovq %rsp,(%rax)   # Put Stack1 on top of Stack2
+	irmovq Stack3,%rsp   # Point to Stack3
+        pushq %rdx
+        rrmovq %rsp,%rbp
+	irmovq $3,%rdx       # Initialize
+	xorq   %rbx,%rbx     # Set condition codes to ZF=1,SF=0,OF=0
+#       Here's where the 4 instruction sequence goes
+        irmovq $3,%rax
+        nop
+        irmovq $3,%rax
+        rrmovq %rax,%rdx
+#	Now finish things off
+	irmovq $3,%rbx       # Not reached when sequence ends with ret
+	halt                  # 
+rtnpt:  irmovq $5,%rsi       # Return point
+	halt
+.pos 0x60
+	Stack1:
+.pos 0x68
+	Stack2:
+.pos 0x70
+	Stack3:
+        halt

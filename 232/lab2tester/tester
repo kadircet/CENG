@@ -1,0 +1,99 @@
+# Names of input pins separated by comma
+# clocks & input pins are the same
+inputs=S1,S0,X3,X2,X1,X0
+
+# Names of output pins separated by comma
+outputs=Y
+
+# Names of allowed chips
+allowed_chips= \
+	Base:Pin, \
+	CENG232 Gates:Constant, \
+	CENG232 Gates:AND Gate, \
+	CENG232 Gates:OR Gate, \
+	CENG232 Gates:NOT Gate, \
+	CENG232 Gates:NOR Gate, \
+	CENG232 Gates:NAND Gate, \
+	CENG232 Gates:NOR Gate, \
+	CENG232 ICs:4-to-1 MUX (x2) (74153)
+
+# How many different runs
+number_of_runs=1
+
+# Each state is: input1,input2,input3,....;desired_output1,desired_output2,desired_output3,..
+# Outputs can be X. Inputs cannot be
+#
+# There is a special state: "if OUTPUTS then goto STATE-NO at most XXX times"
+# Used for waiting for clock-dependent outputs (give the circuit clock until FIN=1)
+# "at most XXXX times" is to prevent infinite loops. Run will fail if "at most XXX times" fail
+#
+# A run will fail if it cannot pass the last state. A run will succeed if it passes the last state.
+#
+# Each run will start with a circuit-reset (Simulate->Reset Simulation menu)
+#
+run.1.length=64
+run.1.state.1 = 0,0,0,0,0,0;0
+run.1.state.2 = 0,0,0,0,0,1;0
+run.1.state.3 = 0,0,0,0,1,0;1
+run.1.state.4 = 0,0,0,0,1,1;0
+run.1.state.5 = 0,0,0,1,0,0;1
+run.1.state.6 = 0,0,0,1,0,1;0
+run.1.state.7 = 0,0,0,1,1,0;0
+run.1.state.8 = 0,0,0,1,1,1;0
+run.1.state.9 = 0,0,1,0,0,0;1
+run.1.state.10 = 0,0,1,0,0,1;0
+run.1.state.11 = 0,0,1,0,1,0;1
+run.1.state.12 = 0,0,1,0,1,1;0
+run.1.state.13 = 0,0,1,1,0,0;0
+run.1.state.14 = 0,0,1,1,0,1;0
+run.1.state.15 = 0,0,1,1,1,0;1
+run.1.state.16 = 0,0,1,1,1,1;0
+run.1.state.17 = 0,1,0,0,0,0;0
+run.1.state.18 = 0,1,0,0,0,1;0
+run.1.state.19 = 0,1,0,0,1,0;0
+run.1.state.20 = 0,1,0,0,1,1;1
+run.1.state.21 = 0,1,0,1,0,0;0
+run.1.state.22 = 0,1,0,1,0,1;0
+run.1.state.23 = 0,1,0,1,1,0;0
+run.1.state.24 = 0,1,0,1,1,1;0
+run.1.state.25 = 0,1,1,0,0,0;0
+run.1.state.26 = 0,1,1,0,0,1;1
+run.1.state.27 = 0,1,1,0,1,0;0
+run.1.state.28 = 0,1,1,0,1,1;0
+run.1.state.29 = 0,1,1,1,0,0;0
+run.1.state.30 = 0,1,1,1,0,1;0
+run.1.state.31 = 0,1,1,1,1,0;0
+run.1.state.32 = 0,1,1,1,1,1;1
+run.1.state.33 = 1,0,0,0,0,0;1
+run.1.state.34 = 1,0,0,0,0,1;0
+run.1.state.35 = 1,0,0,0,1,0;0
+run.1.state.36 = 1,0,0,0,1,1;0
+run.1.state.37 = 1,0,0,1,0,0;0
+run.1.state.38 = 1,0,0,1,0,1;0
+run.1.state.39 = 1,0,0,1,1,0;1
+run.1.state.40 = 1,0,0,1,1,1;0
+run.1.state.41 = 1,0,1,0,0,0;0
+run.1.state.42 = 1,0,1,0,0,1;0
+run.1.state.43 = 1,0,1,0,1,0;0
+run.1.state.44 = 1,0,1,0,1,1;0
+run.1.state.45 = 1,0,1,1,0,0;1
+run.1.state.46 = 1,0,1,1,0,1;0
+run.1.state.47 = 1,0,1,1,1,0;0
+run.1.state.48 = 1,0,1,1,1,1;0
+run.1.state.49 = 1,1,0,0,0,0;0
+run.1.state.50 = 1,1,0,0,0,1;1
+run.1.state.51 = 1,1,0,0,1,0;0
+run.1.state.52 = 1,1,0,0,1,1;0
+run.1.state.53 = 1,1,0,1,0,0;0
+run.1.state.54 = 1,1,0,1,0,1;1
+run.1.state.55 = 1,1,0,1,1,0;0
+run.1.state.56 = 1,1,0,1,1,1;1
+run.1.state.57 = 1,1,1,0,0,0;0
+run.1.state.58 = 1,1,1,0,0,1;0
+run.1.state.59 = 1,1,1,0,1,0;0
+run.1.state.60 = 1,1,1,0,1,1;1
+run.1.state.61 = 1,1,1,1,0,0;0
+run.1.state.62 = 1,1,1,1,0,1;1
+run.1.state.63 = 1,1,1,1,1,0;0
+run.1.state.64 = 1,1,1,1,1,1;0
+

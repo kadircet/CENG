@@ -1,0 +1,20 @@
+Kingdom Number : 3
+
+The Westernlands/Great Stallion-6
+House Frey/Jamie Lannister/Whitewalker/Ice Blade-1/Armor_None-0
+Crakehalls/Desmond Crakehall/Wildling/Dagger-7/Leather-1
+Paynes/Ilyn Payne/Whitewalker/Ice Blade-5/Chainmail-2
+Lannister of Lannisports/Reginald Lannister/Wildling/Dagger-7/Leather-1
+
+The Iron Islands/God of Death-5
+House Greyjoy/Balon Greyjoy/Wildling/Dagger-7/Leather-1
+Goodbrothers/Urragon Goodbrother/Wildling/Dagger-7/Platemail-3
+Merlyns/Meldred Merlyn/Whitewalker/Ice Blade-5/Chainmail-2
+Harlaws/Alannys Harlaw/Whitewalker/Ice Blade-5/Armor_None-0
+
+Dorne/Old Gods of the Forest-2
+House Martell/Doran Martell/Wildling/Dagger-7/Armor_None-0
+Jordaynes/Trebor Jordayne/Wizard/Lighting Staff-3/Platemail-3
+Gargalens/Lord Gargalen/Whitewalker/Ice Blade-5/Armor_None-0
+Manwoodys/Dagos Manwoody/Wildling/Longbow-6/Armor_None-0
+

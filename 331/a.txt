@@ -1,0 +1,5 @@
+b main
+r
+set {char[10]} 0x402d90 = "localhost"
+set {char[10]} 0x4029e7 = "x870-arch"
+

@@ -1,0 +1,10 @@
+To compile parser.cpp run command:
+	./parser.sh
+Note that all .cpp files of headers must be there, even if you don't use cpp files to implement methods.
+
+After compiling parser run command:
+	./tester.sh
+	
+You can try any input with:
+	./parser < inputFile
+

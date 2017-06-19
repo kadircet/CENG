@@ -1,0 +1,38 @@
+Kingdom Number : 6
+
+The Crownlands/Drowned God-3
+House Baratheon/Aegon Targaryen/Wildling/Dagger-7/Leather-1
+Thornes/Alliser Thorne/Wizard/Fire Staff-2/Armor_None-0
+Gaunts/Gwayne Gaunt/Wizard/Fire Staff-2/Platemail-3
+Rosbys/Gyles Rosby/Wizard/Voodoo Staff-4/Armor_None-0
+
+The Iron Islands/Great Stallion-6
+House Greyjoy/Rodrik Greyjoy/Wildling/Dagger-7/Armor_None-0
+Blacktydes/Baelor Blacktyde/Wizard/Fire Staff-2/Chainmail-2
+Merlyns/Meldred Merlyn/Wizard/Fire Staff-2/Armor_None-0
+Harlaws/Alannys Harlaw/Wildling/Dagger-7/Chainmail-2
+
+The North/Religion_None-0
+House Stark/Robb Stark/Wildling/Dagger-7/Chainmail-2
+Umbers/Greatjon Umber/Whitewalker/Ice Blade-5/Armor_None-0
+Manderlys/Wendel Manderly/Wildling/Dagger-7/Leather-1
+Dormunds/Marlin Dormund/Wizard/Voodoo Staff-4/Chainmail-2
+
+The Westernlands/God of Wits and Tine-7
+House Frey/Tyrion Lannister/Wizard/Ice Staff-1/Platemail-3
+Serretts/Lord Serrett/Wildling/Longbow-6/Armor_None-0
+Marbrands/Damon Marbrand/Whitewalker/Ice Blade-5/Leather-1
+Yarwycks/Othell Yarwyck/Wizard/Lighting Staff-3/Leather-1
+
+The Reach/God of Wits and Tine-7
+House Lannister/Loras Tyrell/Wildling/Longbow-6/Armor_None-0
+Redwynes/Paxter Redwyne/Wildling/Dagger-7/Armor_None-0
+Hightowers/Leyton Hightower/Whitewalker/Ice Blade-5/Armor_None-0
+Florents/Axell Florent/Wizard/Ice Staff-1/Platemail-3
+
+The Riverlands/Religion_None-0
+House Bolton/Walder Frey/Whitewalker/Ice Blade-5/Chainmail-2
+Mallisters/Jason Mallister/Wildling/Longbow-6/Leather-1
+Brackens/Jonos Bracken/Wildling/Dagger-7/Leather-1
+Blackwoods/Tytos Blackwood/Wildling/Dagger-7/Leather-1
+

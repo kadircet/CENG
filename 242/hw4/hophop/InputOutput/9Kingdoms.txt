@@ -1,0 +1,56 @@
+Kingdom Number : 9
+
+The Vale of Arryn/Old Gods of the Forest-2
+House Arryn/Robin Arryn/Wizard/Ice Staff-1/Platemail-3
+Tolletts/Eddison Tollett/Wizard/Voodoo Staff-4/Chainmail-2
+Waynwoods/Anya Waynwood/Whitewalker/Ice Blade-5/Chainmail-2
+Hunters/Eon Hunter/Wizard/Voodoo Staff-4/Leather-1
+
+The Riverlands/Great Stallion-6
+House Bolton/Walder Frey/Wizard/Ice Staff-1/Leather-1
+Blackwoods/Tytos Blackwood/Wizard/Voodoo Staff-4/Platemail-3
+Brackens/Jonos Bracken/Whitewalker/Ice Blade-5/Platemail-3
+Mootons/William Mooton/Whitewalker/Ice Blade-5/Platemail-3
+
+The Westernlands/Religion_None-0
+House Frey/Tyrion Lannister/Whitewalker/Ice Blade-5/Chainmail-2
+Lannister of Lannisports/Reginald Lannister/Wildling/Longbow-6/Armor_None-0
+Paynes/Ilyn Payne/Wizard/Ice Staff-1/Chainmail-2
+Serretts/Lord Serrett/Whitewalker/Ice Blade-5/Chainmail-2
+
+The Iron Islands/Great Stallion-6
+House Greyjoy/Victarion Greyjoy/Whitewalker/Ice Blade-5/Leather-1
+Harlaws/Alannys Harlaw/Whitewalker/Ice Blade-5/Armor_None-0
+Goodbrothers/Urragon Goodbrother/Wildling/Dagger-7/Armor_None-0
+Sparrs/Lord Sparr/Wizard/Fire Staff-2/Armor_None-0
+
+The Reach/Faith of the Seven-1
+House Lannister/Mace Tyrell/Wizard/Ice Staff-1/Platemail-3
+Oakhearts/Arys Oakheart/Whitewalker/Ice Blade-5/Chainmail-2
+Florents/Axell Florent/Whitewalker/Ice Blade-5/Chainmail-2
+Fossoways/Lord Fossoway/Wizard/Fire Staff-2/Chainmail-2
+
+Dorne/Old Gods of the Forest-2
+House Martell/Trystane Martell/Wildling/Longbow-6/Leather-1
+Ullers/Mantral Uller/Wildling/Longbow-6/Armor_None-0
+Qorgyles/Quentyn Qorgyle/Wildling/Longbow-6/Chainmail-2
+Yronwoods/Edgar Yronwood/Wizard/Lighting Staff-3/Leather-1
+
+The Stormlands/Faith of the Seven-1
+House Tyrell/Renly Baratheon/Wildling/Longbow-6/Chainmail-2
+Tarths/Brienne Tarth/Wildling/Dagger-7/Leather-1
+Wyldes/Williem Wylde/Wizard/Voodoo Staff-4/Armor_None-0
+Musgoods/Lord Musgood/Whitewalker/Ice Blade-5/Platemail-3
+
+The North/Old Gods of the Forest-2
+House Stark/Benjen Stark/Wildling/Longbow-6/Chainmail-2
+Umbers/Greatjon Umber/Whitewalker/Ice Blade-5/Chainmail-2
+Manderlys/Wendel Manderly/Wizard/Fire Staff-2/Chainmail-2
+Dustins/Barbrey Ryswell/Wizard/Ice Staff-1/Armor_None-0
+
+The Crownlands/Drowned God-3
+House Baratheon/Aerys II Targaryen/Wildling/Longbow-6/Armor_None-0
+Gaunts/Gwayne Gaunt/Wildling/Dagger-7/Chainmail-2
+Rykkers/Jaremy Rykker/Whitewalker/Ice Blade-5/Chainmail-2
+Thornes/Alliser Thorne/Wildling/Longbow-6/Chainmail-2
+

@@ -1,0 +1,113 @@
+    # Preamble.  Initialize memory and registers
+    irmovq $0xf5,%rax
+    irmovq $0,%rbp
+    rmmovq %rax,0xe0(%rbp)
+    irmovq $0xf7,%rax
+    rmmovq %rax,0xe8(%rbp)
+    irmovq $0xfb,%rax
+    rmmovq %rax,0xf0(%rbp)
+    irmovq $0xff,%rax
+    rmmovq %rax,0xf8(%rbp)
+    irmovq $0x100,%rbp
+    irmovq $0x10c,%rsp
+    xorq %rax,%rax      # Set Z condition code
+    irmovq $0x80,%rax
+    # Test 4 instruction sequence
+    rrmovq %rax,%rbp
+    nop
+    
+    pushq  %rbp
+    # Put in another instruction
+    rrmovq %rsp,%rbp
+    # Complete
+    halt
+
+.pos 0x08
+     .quad pos01
+     .quad pos02
+     .quad pos03
+     .quad pos04
+     .quad pos05
+     .quad pos06
+pos01:
+     halt
+pos02:
+     halt
+pos03:
+     halt
+pos04:
+     halt
+pos05:
+     halt
+pos06:
+     halt
+     halt
+     halt
+     halt
+     halt
+     halt
+     halt
+     halt
+     halt
+     halt
+     halt
+     halt
+     halt
+     halt
+     halt
+
+.pos 0x100
+    .quad pos11
+    .quad pos12
+    .quad pos13
+    .quad pos14
+    .quad pos15
+    .quad pos16
+pos11:
+    halt
+pos12:
+    halt
+pos13:
+    halt
+pos14:
+    halt
+pos15:
+    halt
+pos16:
+    halt
+    halt
+    halt
+    halt
+    halt
+    halt
+    halt
+    halt
+    halt
+
+.pos 0x180
+    .quad pos21
+    .quad pos22
+    .quad pos23
+    .quad pos24
+    .quad pos25
+    .quad pos26
+pos21:
+    halt
+pos22:
+    halt
+pos23:
+    halt
+pos24:
+    halt
+pos25:
+    halt
+pos26:
+    halt
+    halt
+    halt
+    halt
+    halt
+    halt
+    halt
+    halt
+    halt

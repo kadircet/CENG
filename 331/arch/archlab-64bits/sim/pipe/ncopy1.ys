@@ -1,0 +1,85 @@
+#/* $begin ncopy-ys */
+##################################################################
+# ncopy.ys - Copy a src block of len words to dst.
+# Return the number of positive words (>0) contained in src.
+#
+# Include your name and ID here.
+# Kadir CETINKAYA e2036457
+#
+# Describe how and why you modified the baseline code.
+#
+##################################################################
+# Do not modify this portion
+# Function prologue.
+# %rdi = src, %rsi = dst, %rdx = len
+ncopy_linear:
+	xorq %rax, %rax
+	jmp lin_test
+lin_loop:
+	mrmovq (%rdi), %r10
+	rmmovq %r10, (%rsi)
+	iaddq $-1, %rdx
+	iaddq $8, %rsi
+	iaddq $8, %rdi
+	andq %r10, %r10
+	jle lin_test
+	iaddq $1, %rax
+lin_test:
+	andq %rdx, %rdx
+	jle Done
+
+ncopy:
+##################################################################
+# You can modify this portion
+	# Loop header
+	xorq %rax,%rax		# count = 0;
+	iaddq $-1, %rdx
+	jg gte2 # if size > 1
+	jl Done # if size < 1
+	mrmovq (%rdi), %r10 # size == 1
+	rmmovq %r10, (%rsi)
+	andq %r10, %r10
+	jle Done
+	iaddq $1, %rax
+	ret
+gte2:
+	irmovq $1, %r10
+	andq %rdx, %r10
+	jne Loop		# if (rdx-1)%2!=0 => even number of elements
+	mrmovq (%rdi), %r10	# read val from src...
+	rmmovq %r10, (%rsi)	# ...and store it to dst
+	iaddq $8, %rdi
+	iaddq $8, %rsi
+	andq %r10, %r10		# val <= 0?
+	jle test		# if so, goto Npos:
+	iaddq $1, %rax		# count++
+	jmp test
+
+Loop:	
+	mrmovq (%rdi), %r9	# read val from src...
+	rmmovq %r9, (%rsi)	# ...and store it to dst
+	mrmovq 8(%rdi), %r10
+	rmmovq %r10, 8(%rsi)
+	andq %r9, %r9
+	jle n10
+	iaddq $1, %rax		# count++
+n10:
+	andq %r10, %r10		# val <= 0?
+	jle Npos		# if so, goto Npos:
+	iaddq $1, %rax		# count++
+Npos:
+	iaddq $-2, %rdx		# len--
+	iaddq $16, %rdi		# src++
+	iaddq $16, %rsi		# dst++
+test:
+	andq %rdx,%rdx		# len > 0?
+	jg Loop			# if so, goto Loop:
+##################################################################
+# Do not modify the following section of code
+# Function epilogue.
+Done:
+	ret
+##################################################################
+# Keep the following label at the end of your function
+End:
+#/* $end ncopy-ys */

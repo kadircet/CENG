@@ -1,0 +1,38 @@
+#e2036457 Kadir CETINKAYA
+#check whether current node is null for the base case, if it is null return 0
+#otherwise save the r10 register from the previous call's value and save current
+#node's value to r10, than call the function again with current node's next ptr
+
+.pos 0
+	irmovq stack, %rsp # set stack pointer
+	irmovq ele1, %rdi # set root for first parameter
+	call rsum_list # call function
+	halt # stop
+
+.align 8
+ele1:
+	.quad 0x00a
+	.quad ele2
+ele2:
+	.quad 0x0b0
+	.quad ele3
+ele3:
+	.quad 0xc00
+	.quad 0
+
+# long rsum_list(list_ptr ls)
+rsum_list:
+	xorq %rax, %rax # zero the result
+	andq %rdi, %rdi # check whether current node is null
+	je done # if null return 0
+	pushq %r10 # otherwise save value from caller
+	mrmovq (%rdi), %r10 # mov value to r10
+	mrmovq 8(%rdi), %rdi # call for next, offset is 8 since value is a quad with size 8
+	call rsum_list # call for next
+	addq %r10, %rax # result of the call is at rax, add current node's value to it for result
+	popq %r10 # restore caller's value
+done:
+	ret # finish
+
+.pos 0x100
+stack:

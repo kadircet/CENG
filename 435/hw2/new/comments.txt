@@ -1,0 +1,62 @@
+[graph1.png]
+As we can see from the graph, as number of links increases the time to transmit file decreases at first the time decreases by
+a factor of 1/3 and then it decreases by a factor of 1/2, the decrease is not linear since even if we push data faster to
+the destination with each increasing link the destination still processes them linearly and after a while the bottleneck
+moves from links to the destination's processing power, but eventough as we can see from the decreases the multihoming
+is working.
+
+[graph2.png]
+As the packet loss increases the File Transfer Time also increases since the lost packets needs to be retransmitted
+after the timeout. Increase seems to be exponential it is likely to be caused by our congestion window methodology
+since we exponentially increase window size until threshold is reached and increase linearly afterwards, and with
+each lost packet we halve the threshold; lost packets causes exponential increase to stop sooner and go to linear
+increase stage faster. But it is also likely to be caused by our bad congestion avoidance methodolgy, since we use
+constant timeout for packets even if the packet loss is low we might still congest the network and cause increased
+packet loss which causes result for 0.1% packet loss and 1% packet loss to be similar. We were not be able to
+check our hypothesis due to outages in Geni Platform.
+
+
+Routing Table (For topology 3)
+When we start our machines route's were already setup we could ping all interfaces of destination from source
+with every interface of the source. But still we setup the routing tables for switches to get familiar with
+the route command and check our understanding, in our setup the ip's of the interfaces were like this:
+
+source: 10.10.1.1,10.10.3.1,10.10.5.1
+destination: 10.10.2.2,10.10.4.2,10.10.6.2
+sw1: 10.10.1.2,10.10.2.1
+sw2: 10.10.3.2,10.10.4.1
+sw3: 10.10.5.2,10.10.6.1
+
+So, for sw1 any packet going to 10.10.1.0/24, 10.10.3.0/24 or 10.10.5.0/24 subnet must be forwarded 
+to 10.10.1.1 and any packet going to 10.10.2.0/24, 10.10.4.0/24 or 10.10.6.0/24 subnet must be 
+forwarded to 10.10.2.2. And those ip's were directly connected to interface eth1 and eth2 of sw1 
+respectively. Therefore we performed following commands in sw1:
+
+route add -net 10.10.1.0 netmask 255.255.255.0 gw 10.10.1.1
+route add -net 10.10.2.0 netmask 255.255.255.0 gw 10.10.2.2
+route add -net 10.10.3.0 netmask 255.255.255.0 gw 10.10.1.1
+route add -net 10.10.4.0 netmask 255.255.255.0 gw 10.10.2.2
+route add -net 10.10.5.0 netmask 255.255.255.0 gw 10.10.1.1
+route add -net 10.10.6.0 netmask 255.255.255.0 gw 10.10.2.2
+
+The same methodology applies to sw2 and sw3, only the gw ip's changes to appropriate ip's of the source
+and destination interfaces, so for sw2 we performed:
+
+route add -net 10.10.1.0 netmask 255.255.255.0 gw 10.10.3.1
+route add -net 10.10.2.0 netmask 255.255.255.0 gw 10.10.4.2
+route add -net 10.10.3.0 netmask 255.255.255.0 gw 10.10.3.1
+route add -net 10.10.4.0 netmask 255.255.255.0 gw 10.10.4.2
+route add -net 10.10.5.0 netmask 255.255.255.0 gw 10.10.3.1
+route add -net 10.10.6.0 netmask 255.255.255.0 gw 10.10.4.2
+
+And for sw3:
+
+route add -net 10.10.1.0 netmask 255.255.255.0 gw 10.10.5.1
+route add -net 10.10.2.0 netmask 255.255.255.0 gw 10.10.6.2
+route add -net 10.10.3.0 netmask 255.255.255.0 gw 10.10.5.1
+route add -net 10.10.4.0 netmask 255.255.255.0 gw 10.10.6.2
+route add -net 10.10.5.0 netmask 255.255.255.0 gw 10.10.5.1
+route add -net 10.10.6.0 netmask 255.255.255.0 gw 10.10.6.2
+
+The methodology is same for topology 2 and 1 we only decrease number of route's, to be preceise do not
+perform the last 2 and 4 operations respectively.

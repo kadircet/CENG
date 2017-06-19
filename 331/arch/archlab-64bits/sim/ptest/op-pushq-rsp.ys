@@ -1,0 +1,19 @@
+        irmovq $0x200,%rsp
+	irmovq $32, %rax
+	nop
+	nop
+        nop
+        rmmovq %rax, 0(%rsp)
+	irmovq $4, %rax
+	nop
+        nop
+        nop
+	rmmovq %rax, -4(%rsp)
+	irmovq $256, %rdx
+	nop
+        nop
+        nop
+	pushq %rsp
+	nop
+	nop
+        halt

@@ -1,0 +1,14 @@
+/*
+ * Decompiled with CFR 0_114.
+ */
+package javax.help.resources;
+
+import java.util.ListResourceBundle;
+
+public class Constants
+extends ListResourceBundle {
+    public Object[][] getContents() {
+        return new Object[][]{{"helpset.wrongPublicID", "Unknown PublicID {0}"}, {"helpset.wrongTitle", "Attempting to set title to {0} but already has value {1}."}, {"helpset.wrongHomeID", "Attempting to set homeID to {0} but already has value {1}."}, {"helpset.subHelpSetTrouble", "Trouble creating subhelpset: {0}."}, {"helpset.malformedURL", "Malformed URL: {0}."}, {"helpset.incorrectURL", "Incorrect URL: {0}."}, {"helpset.wrongText", "{0} cannot contain text {1}."}, {"helpset.wrongTopLevel", "{0} cannot be a top level tag."}, {"helpset.wrongParent", "The parent tag for {0} cannot be {1}."}, {"helpset.unbalanced", "Unbalanced tag {0}."}, {"helpset.wrongLocale", "Warning: xml:lang attribute {0} conflicts with default {1} and with default {2}"}, {"helpset.unknownVersion", "Unknown Version {0}."}, {"index.invalidIndexFormat", "Warning: Invalid Index format"}, {"index.unknownVersion", "Unknown Version {0}."}, {"toc.wrongPublicID", "Unknown PublicID {0}"}, {"toc.invalidTOCFormat", "Warning: Invalid TOC format"}, {"toc.unknownVersion", "Unknown Version {0}."}, {"favorites.invalidFavoritesFormat", "Warning: Invalid Favorites format"}, {"favorites.unknownVersion", "Unknown Version {0}."}, {"map.wrongPublicID", "Unknown PublicID {0}"}, {"map.invalidMapFormat", "Warning: Invalid Map format"}, {"map.unknownVersion", "Unknown Version {0}."}, {"index.findLabel", "Find: "}, {"search.findLabel", "Find: "}, {"search.hitDesc", "Number of occurances in document"}, {"search.qualityDesc", "Lowest penality value in document"}, {"search.high", "High"}, {"search.midhigh", "Medium high"}, {"search.mid", "Medium"}, {"search.midlow", "Medium low"}, {"search.low", "Low"}, {"favorites.add", "Add"}, {"favorites.remove", "Remove"}, {"favorites.folder", "New Folder"}, {"favorites.name", "Name"}, {"favorites.cut", "Cut"}, {"favorites.paste", "Paste"}, {"favorites.copy", "Copy"}, {"history.homePage", "Home page"}, {"history.unknownTitle", "<unknown page title>"}, {"tooltip.BackAction", "Previous Page"}, {"tooltip.ForwardAction", "Next Page"}, {"tooltip.PrintAction", "Print"}, {"tooltip.PrintSetupAction", "Page Setup"}, {"tooltip.ReloadAction", "Reload"}, {"tooltip.FavoritesAction", "Add to Favorites"}, {"tooltip.HomeAction", "Go to home page"}, {"access.BackAction", "Previous Button"}, {"access.ForwardAction", "Next Button"}, {"access.HistoryAction", "History Button"}, {"access.PrintAction", "Print Button"}, {"access.PrintSetupAction", "Page Setup Button"}, {"access.ReloadAction", "Reload Button"}, {"access.HomeAction", "Home Button"}, {"access.FavoritesAction", "Add to Favorites Button"}, {"access.contentViewer", "Content Viewer"}};
+    }
+}
+

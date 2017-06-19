@@ -1,0 +1,21 @@
+ ______________________________________________________________________
+>                                                                      <
+>                         PICos18 release 2.10                         <
+>                                                                      <
+>             PICos18 - Real-time kernel for PIC18 family              <
+>                                                                      <
+>                                                                      <
+> www.picos18.com                                    www.pragmatec.net <
+>______________________________________________________________________<
+
+
+
+PICos18 developers :
+--------------------
+
+Xavier    Montagne  <xavier.montagne@pragmatec.net>
+Bertrand  ROZIER    <bertrand.rozier@pragmatec.net>
+Paul      Beam
+Dan       Devine
+Geoffrey  WU        <geoffrey.wu@cqinc.com.tw>
+Peter     Nielsen   <pnielsen@tuug.fi>

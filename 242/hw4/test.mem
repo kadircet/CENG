@@ -1,0 +1,20 @@
+==7739== Memcheck, a memory error detector
+==7739== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==7739== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==7739== Command: ./parser
+==7739== 
+==7739== 
+==7739== HEAP SUMMARY:
+==7739==     in use at exit: 72,704 bytes in 1 blocks
+==7739==   total heap usage: 517 allocs, 516 frees, 100,986 bytes allocated
+==7739== 
+==7739== LEAK SUMMARY:
+==7739==    definitely lost: 0 bytes in 0 blocks
+==7739==    indirectly lost: 0 bytes in 0 blocks
+==7739==      possibly lost: 0 bytes in 0 blocks
+==7739==    still reachable: 72,704 bytes in 1 blocks
+==7739==         suppressed: 0 bytes in 0 blocks
+==7739== Rerun with --leak-check=full to see details of leaked memory
+==7739== 
+==7739== For counts of detected and suppressed errors, rerun with: -v
+==7739== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

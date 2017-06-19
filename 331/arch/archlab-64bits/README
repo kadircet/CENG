@@ -1,0 +1,22 @@
+#####################################################################
+# CS:APP Architecture Lab
+# Directions to Instructors
+#
+# Copyright (c) 2002, 2011, 2015 R. Bryant and D. O'Hallaron,
+# All rights reserved. May not be used, modified, or copied without permission.
+#
+######################################################################
+
+This directory contains the files that you will need to run the CS:APP
+architecture lab, which develops a student's understanding of
+processor design and the close relationship between software and
+hardware.
+
+
+********
+2. Files
+********
+
+README			This file
+sim.tar			Archive of the Y86-64 tools in tar format
+simguide.pdf		CS:APPe3 Guide to Simulators document

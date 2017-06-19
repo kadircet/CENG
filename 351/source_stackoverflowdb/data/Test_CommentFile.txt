@@ -1,0 +1,13 @@
+C101	A105	U101	What is wrong with rand(range)?	2008-09-13	764
+C102	A102	U105	Add this extension method to your code	2011-03-11	45
+C103	A101	U103	You can use break with a label for the outer loop.	2009-05-20	1630
+C104	A103	U104	The use of scriptlets in JSP is indeed highly discouraged since the birth of taglibs and EL.	2010-07-05	1640
+C105	A104	U105	It is not the kind of flicker that double-buffering can solve.	2010-05-10	227
+C106	A105	U102	While you can use rand(42-10) + 10 to get a random number between 10 and 42.	2010-05-05	516
+C107	A104	U101	This is a real issue, and the answer Hans Passant gave is great for saving the flicker.	2013-05-20	6
+C108	A103	U105	As a Safeguard: Disable Scriptlets For Good	2011-08-14	186
+C109	A101	U101	Technically the correct answer is to label the outer loop.	2011-11-14	321
+C110	A103	U104	JSTL offers tags for conditionals, loops, sets, gets, etc.	2010-07-05	89
+C111	A104	U102	Try BeginUpdate/EndUpdate OR SuspendLayout/ResumeLayout methods.	2010-04-10	2
+C112	A106	U104	float and double are floating binary point types.	2009-03-06	1650
+C113	A107	U103	Stopwatch is designed for this purpose and is one of the best way to measure time execution.	2012-12-24	393

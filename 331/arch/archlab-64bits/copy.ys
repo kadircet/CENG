@@ -1,0 +1,48 @@
+#e2036457 Kadir CETINKAYA
+#copies blocks from src to destination one quad at a time
+#by moving from *src to *dst using r10 register and incrementing
+#both src and dst by 8, quad size, and decrement size by one
+#and also xor's the r10 register with rax to keep the return
+#value of the operation. when size becomes less than or equal
+#to zero loop terminates
+
+.pos 0
+	irmovq stack, %rsp # setup stack
+	irmovq src, %rdi # set src as the first,
+	irmovq dest, %rsi # dest as the second,
+	irmovq $3, %rdx # 3 as the third argument
+	call copy_block # call function
+	halt # halts the machine
+
+.align 8
+# Source block
+src:
+	.quad 0x00a
+	.quad 0x0b0
+	.quad 0xc00
+# Destination block
+dest:
+	.quad 0x111
+	.quad 0x222
+	.quad 0x333
+
+# long copy_block(long* src, long* dst, long len)
+copy_block:
+	xorq %rax, %rax # zero the result
+	irmovq $8, %r8 # mov quad size to r8, for incrementing the pointers
+	irmovq $-1, %r9 # mov -1 to r9, for decrementing the size
+	jmp test # go to loop condition
+loop:
+	mrmovq (%rdi), %r10 # mov from *src to r10
+	rmmovq %r10, (%rsi) # mov from r10 to *dest
+	xorq %r10, %rax # result = result^*src
+	addq %r8, %rdi # add 8 to src
+	addq %r8, %rsi # add 8 to dest
+	addq %r9, %rdx # decrement size by one
+test:
+	andq %rdx, %rdx # test for size
+	jg loop # if positive take the loop
+	ret # finish
+
+.pos 0x100
+stack:

@@ -1,0 +1,6 @@
+HTTP/1.0 200 OK
+Connection: close
+MIME-Version: 1.0
+Content-Type: text/plain
+
+OK

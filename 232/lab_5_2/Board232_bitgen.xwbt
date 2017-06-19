@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/kadircet/ceng/232/lab_5_2/Board232.ncd
+OUTFILE=/home/kadircet/ceng/232/lab_5_2/Board232.bit
+FAMILY=Spartan3E
+PART=xc3s250e-5cp132
+WORKINGDIR=/home/kadircet/ceng/232/lab_5_2
+LICENSE=WebPack
+USER_INFO=0_0_216

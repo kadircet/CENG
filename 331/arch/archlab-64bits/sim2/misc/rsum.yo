@@ -1,0 +1,35 @@
+                            | #e2036457 Kadir CETINKAYA
+                            | 
+0x000:                      | .pos 0
+0x000: 30f40001000000000000 | 	irmovq stack, %rsp
+0x00a: 30f72000000000000000 | 	irmovq ele1, %rdi
+0x014: 805000000000000000   | 	call rsum_list
+0x01d: 00                   | 	halt
+                            | 
+0x020:                      | .align 8
+0x020:                      | ele1:
+0x020: 0a00000000000000     | 	.quad 0x00a
+0x028: 3000000000000000     | 	.quad ele2
+0x030:                      | ele2:
+0x030: b000000000000000     | 	.quad 0x0b0
+0x038: 4000000000000000     | 	.quad ele3
+0x040:                      | ele3:
+0x040: 000c000000000000     | 	.quad 0xc00
+0x048: 0000000000000000     | 	.quad 0
+                            | 
+                            | # long sum_list(list_ptr ls)
+0x050:                      | rsum_list:
+0x050: 6300                 | 	xorq %rax, %rax
+0x052: 6277                 | 	andq %rdi, %rdi
+0x054: 738000000000000000   | 	je done
+0x05d: a0af                 | 	pushq %r10
+0x05f: 50a70000000000000000 | 	mrmovq (%rdi), %r10
+0x069: 50770800000000000000 | 	mrmovq 8(%rdi), %rdi
+0x073: 805000000000000000   | 	call rsum_list
+0x07c: 60a0                 | 	addq %r10, %rax
+0x07e: b0af                 | 	popq %r10
+0x080:                      | done:
+0x080: 90                   | 	ret
+                            | 
+0x100:                      | .pos 0x100
+0x100:                      | stack:

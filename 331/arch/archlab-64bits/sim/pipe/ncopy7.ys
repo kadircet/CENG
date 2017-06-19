@@ -1,0 +1,186 @@
+# Kadir CETINKAYA e2036457
+#/* $begin ncopy-ys */
+##################################################################
+# ncopy.ys - Copy a src block of len words to dst.
+# Return the number of positive words (>0) contained in src.
+#
+# Include your name and ID here.
+#
+# Describe how and why you modified the baseline code.
+#
+##################################################################
+# Do not modify this portion
+# Function prologue.
+# %rdi = src, %rsi = dst, %rdx = len
+ncopy:
+	xorq %rax, %rax
+	iaddq $-4, %rdx
+	mrmovq (%rdi), %r8
+	jg lin_loop_f
+	jmp test_f
+
+lin_loop: #size/5>0
+	mrmovq (%rdi), %r8
+lin_loop_f:
+	mrmovq 8(%rdi), %r9
+	mrmovq 16(%rdi), %r10
+	andq %r8, %r8
+	mrmovq 24(%rdi), %r11
+	mrmovq 32(%rdi), %r12
+#	mrmovq 40(%rdi), %rcx
+	jle r9
+	iaddq $1, %rax
+r9:
+	andq %r9, %r9
+	jle r10
+	iaddq $1, %rax
+r10:
+	andq %r10, %r10
+	jle r11
+	iaddq $1, %rax
+r11:
+	andq %r11, %r11
+	jle r12
+	iaddq $1, %rax
+r12:
+	andq %r12, %r12
+	jle done
+	iaddq $1, %rax
+#rcx:
+#	andq %rcx, %rcx
+#	jle done
+#	iaddq $1, %rax
+done:
+	iaddq $40, %rsi
+	iaddq $40, %rdi
+	iaddq $-5, %rdx
+	rmmovq %r8, -40(%rsi)
+	rmmovq %r9, -32(%rsi)
+	rmmovq %r10, -24(%rsi)
+	rmmovq %r11, -16(%rsi)
+	rmmovq %r12, -8(%rsi)
+#	rmmovq %rcx, -8(%rsi)
+lin_test:
+	jg lin_loop
+#	iaddq $4, %rdx
+
+test:
+	mrmovq (%rdi), %r8
+test_f:
+	#je x5m #size%6==5
+	#iaddq $1, %rdx
+	je x4m #size%6==4
+	iaddq $1, %rdx
+	je x3m #size%6==3
+	iaddq $1, %rdx
+	je x2m #size%6==2
+	iaddq $1, %rdx
+	je x1m #size%6==1
+	jmp Done #size%5==0
+
+#x5m:
+#	#mrmovq (%rdi), %r8
+#	mrmovq 8(%rdi), %r9
+#	mrmovq 16(%rdi), %r10
+#	mrmovq 24(%rdi), %r11
+#	mrmovq 32(%rdi), %r12
+#	andq %r8, %r8
+#	rmmovq %r11, 24(%rsi)
+#	rmmovq %r12, 32(%rsi)
+#	rmmovq %r10, 16(%rsi)
+#	rmmovq %r9, 8(%rsi)
+#	rmmovq %r8, (%rsi)
+#	jle r93
+#	iaddq $1, %rax
+#r93:
+#	andq %r9, %r9
+#	jle r103
+#	iaddq $1, %rax
+#r103:
+#	andq %r10, %r10
+#	jle r113
+#	iaddq $1, %rax
+#r113:
+#	andq %r11, %r11
+#	jle r123
+#	iaddq $1, %rax
+#r123:
+#	andq %r12, %r12
+#	jle Done
+#	iaddq $1, %rax
+#	jmp Done
+x4m:
+	#mrmovq (%rdi), %r8
+	mrmovq 8(%rdi), %r9
+	mrmovq 16(%rdi), %r10
+	mrmovq 24(%rdi), %r11
+	andq %r8, %r8
+	rmmovq %r11, 24(%rsi)
+	rmmovq %r10, 16(%rsi)
+	rmmovq %r9, 8(%rsi)
+	rmmovq %r8, (%rsi)
+	jle r93
+	iaddq $1, %rax
+r93:
+	andq %r9, %r9
+	jle r103
+	iaddq $1, %rax
+r103:
+	andq %r10, %r10
+	jle r113
+	iaddq $1, %rax
+r113:
+	andq %r11, %r11
+	jle Done
+	iaddq $1, %rax
+	jmp Done
+
+x3m:
+	#mrmovq (%rdi), %r8
+	mrmovq 8(%rdi), %r9
+	mrmovq 16(%rdi), %r10
+	andq %r8, %r8
+	rmmovq %r8, (%rsi)
+	rmmovq %r9, 8(%rsi)
+	rmmovq %r10, 16(%rsi)
+	jle r94
+	iaddq $1, %rax
+r94:
+	andq %r9, %r9
+	jle r104
+	iaddq $1, %rax
+r104:
+	andq %r10, %r10
+	jle Done
+	iaddq $1, %rax
+	jmp Done
+
+x2m:
+	#mrmovq (%rdi), %r8
+	mrmovq 8(%rdi), %r9
+	andq %r8, %r8
+	rmmovq %r8, (%rsi)
+	rmmovq %r9, 8(%rsi)
+	jle r95
+	iaddq $1, %rax
+r95:
+	andq %r9, %r9
+	jle Done
+	iaddq $1, %rax
+	jmp Done
+
+x1m:
+	andq %r8, %r8
+	rmmovq %r8, (%rsi)
+	jle Done
+	iaddq $1, %rax
+
+##################################################################
+# Do not modify the following section of code
+# Function epilogue.
+Done:
+	ret
+##################################################################
+# Keep the following label at the end of your function
+End:
+#/* $end ncopy-ys */

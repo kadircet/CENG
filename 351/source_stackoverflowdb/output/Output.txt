@@ -1,0 +1,115 @@
+
+--------------------------------------------------------------
+*** Create tables ***
+Created 4 tables.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Insert into User ***
+5 users are inserted.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Insert into Article ***
+7 article are inserted.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Insert into Comment ***
+13 comments are inserted.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Insert into Reputation ***
+5 reputations are inserted.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find the article which has the highest rating, ***
+Username	Date	Rating
+Darin Dimitrov	2009-03-06	1405
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find the user whose comment message does not contain 'mysql' and the comment has the lowest rating ***
+Username	Message	Rating	AlltimeReputation
+Darin Dimitrov	Try BeginUpdate/EndUpdate OR SuspendLayout/ResumeLayout methods.	2	698634	
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** List the userID, username, registration date and weekly reputation of users whose registration date is after a given date ***
+UserID	Username	RegistrationDate	WeeklyReputation
+U102	Darin Dimitrov	2008-10-15	256
+U103	BalusC	2009-08-05	215
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Multiply rating of the comment by 2 whose date is after for a given date ***
+9 rows are changed.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** List the username, message, and rating of comments which does not contain given string in their message ant it's rating is more than given rating ***
+Username	Message	Rating
+BalusC	Stopwatch is designed for this purpose and is one of the best way to measure time execution.	786
+Darin Dimitrov	While you can use rand(42-10) + 10 to get a random number between 10 and 42.	1032
+Hans Passant	The use of scriptlets in JSP is indeed highly discouraged since the birth of taglibs and EL.	3280
+Hans Passant	float and double are floating binary point types.	1650
+Jon Skeet	What is wrong with rand(range)?	764
+VonC	It is not the kind of flicker that double-buffering can solve.	454	
+VonC	As a Safeguard: Disable Scriptlets For Good	372
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** List the userID, username and last login date of user/s who comment all the articles commented by a given user ***
+UserID	Username	LastLoginDate
+U101	Jon Skeet	2016-11-29
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** List username, comment message and rating of comments whose comment rating is more than given number of ratings for a given article, ***
+Username	Message	Rating
+Hans Passant	The use of scriptlets in JSP is indeed highly discouraged since the birth of taglibs and EL.	3280
+VonC	As a Safeguard: Disable Scriptlets For Good	372
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** List the article name, username, article date and article rating of articles commented by this user such that none of these articles are commented by any other user, ***
+Name	Username	Date	Rating
+Calculate the execution time of a method	BalusC	2013-11-20	202
+Difference between decimal, float and double in .NET?	Hans Passant	2009-03-06	1405
+How to get current page URL in MVC 3	VonC	2011-03-14	233
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find the article whose date is before given date and whose user has the highest weeklyReputation ***
+Username	Date	Rating
+Jon Skeet	2010-07-05	1232
+Jon Skeet	2008-04-10	75
+
+--------------------------------------------------------------
+*** Delete the articles for a given date and list the username, date and rating of these articles ***
+Username	Date	Rating	
+Hans Passant	2008-09-13	592	
+Jon Skeet	2008-04-10	75
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Drop tables ***
+Dropped 4 tables.
+
+--------------------------------------------------------------

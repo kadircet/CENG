@@ -1,0 +1,86 @@
+# Kadir CETINKAYA e2036457
+#/* $begin ncopy-ys */
+##################################################################
+# ncopy.ys - Copy a src block of len words to dst.
+# Return the number of positive words (>0) contained in src.
+#
+# Include your name and ID here.
+#
+# Describe how and why you modified the baseline code.
+#
+##################################################################
+# Do not modify this portion
+# Function prologue.
+# %rdi = src, %rsi = dst, %rdx = len
+ncopy:
+	xorq %rax, %rax
+	irmovq $1, %r8
+	iaddq $-5, %rdx
+	jmp lin_test
+lin_loop:
+	mrmovq (%rdi), %r10
+	mrmovq 8(%rdi), %r11
+	xorq %r9, %r9
+	rmmovq %r10, (%rsi)
+	rmmovq %r11, 8(%rsi)
+	andq %r10, %r10
+	cmovg %r8, %r9
+	addq %r9, %rax
+	xorq %r9, %r9
+	andq %r11, %r11
+	cmovg %r8, %r9
+	addq %r9, %rax
+	mrmovq 16(%rdi), %r10
+	mrmovq 24(%rdi), %r11
+	xorq %r9, %r9
+	rmmovq %r10, 16(%rsi)
+	rmmovq %r11, 24(%rsi)
+	andq %r10, %r10
+	cmovg %r8, %r9
+	addq %r9, %rax
+	xorq %r9, %r9
+	andq %r11, %r11
+	cmovg %r8, %r9
+	addq %r9, %rax
+	mrmovq 32(%rdi), %r10
+	mrmovq 40(%rdi), %r11
+	xorq %r9, %r9
+	rmmovq %r10, 32(%rsi)
+	rmmovq %r11, 40(%rsi)
+	andq %r10, %r10
+	cmovg %r8, %r9
+	addq %r9, %rax
+	xorq %r9, %r9
+	andq %r11, %r11
+	cmovg %r8, %r9
+	addq %r9, %rax
+	iaddq $48, %rsi
+	iaddq $48, %rdi
+	iaddq $-6, %rdx
+lin_test:
+	jg lin_loop
+	iaddq $5, %rdx
+	jmp test
+loop:
+	mrmovq (%rdi), %r10
+	rmmovq %r10, (%rsi)
+	xorq %r9, %r9
+	andq %r10, %r10
+	cmovg %r8, %r9
+	addq %r9, %rax
+	iaddq $8, %rsi
+	iaddq $8, %rdi
+	iaddq $-1, %rdx
+test:
+	jg loop
+	ret
+
+##################################################################
+# Do not modify the following section of code
+# Function epilogue.
+Done:
+	ret
+##################################################################
+# Keep the following label at the end of your function
+End:
+#/* $end ncopy-ys */

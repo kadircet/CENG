@@ -1,0 +1,88 @@
+Summary for /www/javadecompilers/app/public/data/09.03.16/e3d67c32f6dac148119f7415ae5b696d/logisim-ceng232-20090616.jar
+Decompiled with CFR 0_114
+
+
+com.cburch.logisim.gui.menu.ProjectLibraryActions
+----------------------------
+
+doLoadJarLibrary(com.cburch.logisim.proj.Project )
+  Unable to fully structure code
+
+
+com.cburch.logisim.gui.prefs.TemplateOptions
+----------------------------
+
+actionPerformed(java.awt.event.ActionEvent )
+  Unable to fully structure code
+
+
+com.sun.java.help.impl.DocumentParser
+----------------------------
+
+parseTag()
+  Unable to fully structure code
+parseEscape()
+  Unable to fully structure code
+
+
+com.sun.java.help.impl.JHelpPrintHandler
+----------------------------
+
+createTransforms()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[DOLOOP]], but top level block is 0[TRYBLOCK]
+
+
+com.sun.java.help.impl.SwingWorker
+----------------------------
+
+get()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[UNCONDITIONALDOLOOP]], but top level block is 1[CATCHBLOCK]
+
+
+com.sun.java.help.impl.XmlReader
+----------------------------
+
+guessEncoding()
+  Unable to fully structure code
+
+
+javax.help.HelpUtilities
+----------------------------
+
+isStringInString(java.text.RuleBasedCollator java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+net.roydesign.ui.JScreenMenu
+----------------------------
+
+addNotify()
+  Unable to fully structure code
+
+
+net.roydesign.ui.ScreenMenu
+----------------------------
+
+addNotify()
+  Unable to fully structure code
+
+
+org.jdom.AttributeList
+----------------------------
+
+addAll(int java.util.Collection )
+  Unable to fully structure code
+
+
+org.jdom.ContentList
+----------------------------
+
+addAll(int java.util.Collection )
+  Unable to fully structure code
+
+
+org.jdom.FilterIterator
+----------------------------
+
+hasNext()
+  Unable to fully structure code

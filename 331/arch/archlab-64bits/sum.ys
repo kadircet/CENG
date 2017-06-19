@@ -1,0 +1,37 @@
+#e2036457 Kadir CETINKAYA
+#starts from the root and while the current node is not null
+#add its value to result and set current node to its next
+
+.pos 0
+	irmovq stack, %rsp # set stack pointer
+	irmovq ele1, %rdi # set first parameter to ele1
+	call sum_list # call function
+	halt # stop
+
+.align 8
+ele1:
+	.quad 0x00a
+	.quad ele2
+ele2:
+	.quad 0x0b0
+	.quad ele3
+ele3:
+	.quad 0xc00
+	.quad 0
+
+# long sum_list(list_ptr ls)
+sum_list:
+	xorq %rax, %rax # zero the result
+	jmp test # check loop condition
+loop:
+	mrmovq (%rdi), %r10 # mov current node's value to r10
+	addq %r10, %rax # add it to result
+	mrmovq 8(%rdi), %rdi # set current node to its next, since value is a quad
+						# offset is a quad size, 8
+test:
+	andq %rdi, %rdi # check for current node
+	jne loop # take loop if it's not null
+	ret # finish
+
+.pos 0x100
+stack:

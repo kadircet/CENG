@@ -1,0 +1,42 @@
+                            | #e2036457 Kadir CETINKAYA
+                            | 
+0x000:                      | .pos 0
+0x000: 30f40001000000000000 | 	irmovq stack, %rsp
+0x00a: 30f73800000000000000 | 	irmovq src, %rdi
+0x014: 30f65000000000000000 | 	irmovq dest, %rsi
+0x01e: 30f20300000000000000 | 	irmovq $3, %rdx
+0x028: 806800000000000000   | 	call copy_block
+0x031: 00                   | 	halt
+                            | 
+0x038:                      | .align 8
+                            | # Source block
+0x038:                      | src:
+0x038: 0a00000000000000     | 	.quad 0x00a
+0x040: b000000000000000     | 	.quad 0x0b0
+0x048: 000c000000000000     | 	.quad 0xc00
+                            | # Destination block
+0x050:                      | dest:
+0x050: 1101000000000000     | 	.quad 0x111
+0x058: 2202000000000000     | 	.quad 0x222
+0x060: 3303000000000000     | 	.quad 0x333
+                            | 
+                            | # long copy_block(long* src, long* dst, long len)
+0x068:                      | copy_block:
+0x068: 6300                 | 	xorq %rax, %rax
+0x06a: 30f80800000000000000 | 	irmovq $8, %r8
+0x074: 30f9ffffffffffffffff | 	irmovq $-1, %r9
+0x07e: 70a300000000000000   | 	jmp test
+0x087:                      | loop:
+0x087: 50a70000000000000000 | 	mrmovq (%rdi), %r10
+0x091: 40a60000000000000000 | 	rmmovq %r10, (%rsi)
+0x09b: 63a0                 | 	xorq %r10, %rax
+0x09d: 6087                 | 	addq %r8, %rdi
+0x09f: 6086                 | 	addq %r8, %rsi
+0x0a1: 6092                 | 	addq %r9, %rdx
+0x0a3:                      | test:
+0x0a3: 6222                 | 	andq %rdx, %rdx
+0x0a5: 748700000000000000   | 	jne loop
+0x0ae: 90                   | 	ret
+                            | 
+0x100:                      | .pos 0x100
+0x100:                      | stack:

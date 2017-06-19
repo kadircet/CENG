@@ -1,0 +1,9 @@
+	      irmovq $256, %rbx
+	      irmovq $32, %rbx
+	      nop
+	      nop
+	      nop
+	      xorq %rbx,%rbx
+	      nop
+	      nop
+	      halt

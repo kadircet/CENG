@@ -1,0 +1,151 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{amsmath}
+
+
+\usepackage[hmargin=3cm,vmargin=6.0cm]{geometry}
+%\topmargin=0cm
+\topmargin=-2cm
+\addtolength{\textheight}{6.5cm}
+\addtolength{\textwidth}{2.0cm}
+%\setlength{\leftmargin}{-5cm}
+\setlength{\oddsidemargin}{0.0cm}
+\setlength{\evensidemargin}{0.0cm}
+
+%misc libraries goes here
+\usepackage{tikz}
+\usetikzlibrary{automata,positioning}
+
+\begin{document}
+
+\section*{Student Information } 
+Full Name : Kadir CETINKAYA \\
+Id Number : 2036457 \\
+
+\section*{Graph}
+\includegraphics[height=360pt]{graph.png}
+We can see from the graph that here is a linear correspondence
+between the emulated delay and the end-to-end delay. But the
+slope of the graph is not one, since the emulated delay does not
+consider the queueing delay, propagation delay, transmission delay
+and the routing delay. Therefore the slope of the graph is greater
+than one but since those delays are not the dominating factors when
+compared with the network delays we introduced with tc, therefore
+the graph is still linear.
+
+\section*{Routing Tables}
+\begin{tabular}{|cc|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Routing Table of A}}\\
+\hline
+\textbf{Target} & \textbf{Next Hop}\\
+A & A \\
+B & B \\
+C & B \\
+D & B \\
+E & B \\
+\hline
+\end{tabular}
+\begin{tabular}{|cc|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Routing Table of B}}\\
+\hline
+\textbf{Target} & \textbf{Next Hop}\\
+A & A \\
+B & B \\
+C & C \\
+D & C \\
+E & C \\
+\hline
+\end{tabular}
+\begin{tabular}{|cc|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Routing Table of C}}\\
+\hline
+\textbf{Target} & \textbf{Next Hop}\\
+A & B \\
+B & B \\
+C & C \\
+D & D \\
+E & D \\
+\hline
+\end{tabular}
+\\
+\begin{tabular}{|cc|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Routing Table of D}}\\
+\hline
+\textbf{Target} & \textbf{Next Hop}\\
+A & C \\
+B & C \\
+C & C \\
+D & D \\
+E & E \\
+\hline
+\end{tabular}
+\begin{tabular}{|cc|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Routing Table of E}}\\
+\hline
+\textbf{Target} & \textbf{Next Hop}\\
+A & D \\
+B & D \\
+C & D \\
+D & D \\
+E & E \\
+\hline
+\end{tabular}
+
+\section*{Desing}
+Before writing the code, we designed our protocol and decided to
+put a total of 10 bytes header per packet. In the first byte we
+stored the packet's source/destination information and whether
+the packet is a acknowledgement or a data packet. To do that
+we used radix 5 representation, since our source/destination
+info is a discrete value between A,B,C,D,E we mapped them to
+0,1,2,3,4 and for ACK/Data packet difference we used only one bit,
+1 for ACK and 0 for Data and calculated the byte using the formula
+source+5*destinatin+25*isAck, since this value is always less than
+256 we safely stored it in one byte. For the next 8 bytes we put
+the timestamp of the sender when the packet had been generated.
+And for the last byte we put the length of the data, which is
+always less then 256 for our use in this homework and of course
+we appended the payload to the header lastly.
+
+After those arrengements we needed to map the 0,1,2,3,4 convention to
+IP's of the machines, since routers had 2 interfaces and a machine could
+only see one of them we decided to store the mapping as a (target,this,ip)
+triplet in which we get the 'ip' of the 'target' which is reachable from 'this'
+machine.
+
+For the routing tables, since we know how to get the IP of a target from
+0,1,2,3,4 mapping, we decided to store them also in the (target,this,nexthop)
+triplet, in which we can get the 'nexthop', which is in $\{0,1,2,3,4\}$, to reach
+'target' from 'this' node, the 'target' and 'this' are also in $\{0,1,2,3,4\}$.
+
+To measure the end-to-end delay we are putting a timestamp for the package
+creation time and measuring the time again as soon as we receive the packet
+and look at the time difference. For this method to be sane we need to make
+sure that sender and receiver have a synchronised time, to do that we used
+the NTP(Network Time Protocol), we setup our server on node E and added A
+as a peer to it and synced the clock of A to the E's. After NTP synch we 
+checked their clock difference with clockdiff and achieved a 0/0ms clockdiff.
+So after that our method would work without introducing any unexpected errors
+to the measurement.
+
+\section*{Experiment}
+To get the end-to-end delay, we sent 100 packets from client to server
+measured the time difference and get the average of those hundred packets
+our means were, $42.0280623436$, $80.9206318855$, $162.675359249$, $321.32212162$
+all in milliseconds for $10$,$20$,$40$,$80$ ms network delays respectively. After
+that we calculated confidence intervals for each of our results, to do so
+we calculated the standard deviation in each experiment multiplied it by $1.96$
+and dividing it by 10, which is the square root of 100, length of our dataset.
+So our confidence intervals were, $\pm 1.84840390578$ms, $\pm 3.1282490074$ms, 
+$\pm 2.11410422494$ms, $\pm 2.07671289966$ms respectively, for each experiment.
+Then plotted everypoint with those errors set as errorbars around the points.
+
+During the homework, we designed and implemented all the parts together.
+
+\end{document}

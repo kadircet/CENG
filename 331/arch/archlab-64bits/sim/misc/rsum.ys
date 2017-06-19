@@ -1,0 +1,35 @@
+#e2036457 Kadir CETINKAYA
+
+.pos 0
+	irmovq stack, %rsp
+	irmovq ele1, %rdi
+	call rsum_list
+	halt
+
+.align 8
+ele1:
+	.quad 0x00a
+	.quad ele2
+ele2:
+	.quad 0x0b0
+	.quad ele3
+ele3:
+	.quad 0xc00
+	.quad 0
+
+# long rsum_list(list_ptr ls)
+rsum_list:
+	xorq %rax, %rax
+	andq %rdi, %rdi
+	je done
+	pushq %r10
+	mrmovq (%rdi), %r10
+	mrmovq 8(%rdi), %rdi
+	call rsum_list
+	addq %r10, %rax
+	popq %r10
+done:
+	ret
+
+.pos 0x100
+stack:

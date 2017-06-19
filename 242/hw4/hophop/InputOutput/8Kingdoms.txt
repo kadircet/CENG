@@ -1,0 +1,50 @@
+Kingdom Number : 8
+
+The Crownlands/God of Wits and Tine-7
+House Baratheon/Viserys Targaryen/Wildling/Longbow-6/Leather-1
+Blounts/Boros Blount/Wildling/Dagger-7/Chainmail-2
+Brunes/Lothor Brune/Whitewalker/Ice Blade-5/Armor_None-0
+Rosbys/Gyles Rosby/Wizard/Voodoo Staff-4/Armor_None-0
+
+The Stormlands/Great Stallion-6
+House Tyrell/Renly Baratheon/Wizard/Fire Staff-2/Chainmail-2
+Wyldes/Williem Wylde/Wildling/Dagger-7/Armor_None-0
+Morrigens/Damon Morrigen/Wizard/Fire Staff-2/Leather-1
+Tarths/Brienne Tarth/Wizard/Fire Staff-2/Chainmail-2
+
+The Reach/Lord of Light-4
+House Lannister/Mace Tyrell/Wildling/Dagger-7/Chainmail-2
+Beesburys/Lyman Beesbury/Wizard/Lighting Staff-3/Leather-1
+Fossoways/Lord Fossoway/Wizard/Ice Staff-1/Armor_None-0
+Florents/Axell Florent/Whitewalker/Ice Blade-5/Armor_None-0
+
+The Vale of Arryn/Great Stallion-6
+House Arryn/Petry Baelish/Wizard/Ice Staff-1/Chainmail-2
+Waynwoods/Anya Waynwood/Wildling/Longbow-6/Chainmail-2
+Lynderlys/Jon Lynderly/Wizard/Voodoo Staff-4/Chainmail-2
+Tolletts/Eddison Tollett/Wizard/Lighting Staff-3/Leather-1
+
+The North/God of Death-5
+House Stark/Jon Snow/Whitewalker/Ice Blade-5/Platemail-3
+Ryswells/Barbrey Ryswell/Whitewalker/Ice Blade-5/Chainmail-2
+Karstarks/Rickard Karstark/Whitewalker/Ice Blade-5/Chainmail-2
+Manderlys/Wendel Manderly/Whitewalker/Ice Blade-5/Chainmail-2
+
+Dorne/God of Death-5
+House Martell/Obara Sand/Wizard/Voodoo Staff-4/Platemail-3
+Manwoodys/Dagos Manwoody/Whitewalker/Ice Blade-5/Platemail-3
+Blackmonts/Larra Blackmont/Wildling/Dagger-7/Armor_None-0
+Gargalens/Lord Gargalen/Wildling/Dagger-7/Armor_None-0
+
+The Westernlands/Religion_None-0
+House Frey/Lancel Lannister/Wizard/Voodoo Staff-4/Leather-1
+Marbrands/Damon Marbrand/Wildling/Dagger-7/Platemail-3
+Westerlings/Gawen Westerling/Wildling/Dagger-7/Armor_None-0
+Sarsfields/Eldrick Sarsfield/Wizard/Fire Staff-2/Armor_None-0
+
+The Iron Islands/Religion_None-0
+House Greyjoy/Rodrik Greyjoy/Wildling/Dagger-7/Armor_None-0
+Harlaws/Alannys Harlaw/Wizard/Ice Staff-1/Platemail-3
+Goodbrothers/Urragon Goodbrother/Whitewalker/Ice Blade-5/Leather-1
+Botleys/Sawane Botley/Wildling/Longbow-6/Armor_None-0
+

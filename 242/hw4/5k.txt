@@ -1,0 +1,32 @@
+Kingdom Number : 5
+
+Dorne/God of Death-5
+House Martell/Trystane Martell/Wildling/Longbow-6/Armor_None-0
+Qorgyles/Quentyn Qorgyle/Wildling/Dagger-7/Chainmail-2
+Manwoodys/Dagos Manwoody/Whitewalker/Ice Blade-5/Chainmail-2
+Ullers/Mantral Uller/Whitewalker/Ice Blade-5/Leather-1
+
+The Vale of Arryn/Drowned God-3
+House Arryn/Jon Arryn/Wizard/Lighting Staff-3/Platemail-3
+Royces/Yohn Royce/Whitewalker/Ice Blade-5/Chainmail-2
+Hunters/Eon Hunter/Whitewalker/Ice Blade-5/Platemail-3
+Egens/Vardis Egen/Wildling/Longbow-6/Armor_None-0
+
+The Reach/God of Death-5
+House Lannister/Luthor Tyrell/Wildling/Dagger-7/Leather-1
+Beesburys/Lyman Beesbury/Wildling/Dagger-7/Leather-1
+Leygoods/Lord Leygood/Wildling/Dagger-7/Armor_None-0
+Fossoways/Lord Fossoway/Whitewalker/Ice Blade-5/Leather-1
+
+The Westernlands/Drowned God-3
+House Frey/Tyrion Lannister/Wizard/Lighting Staff-3/Armor_None-0
+Leffords/Leo Lefford/Wildling/Longbow-6/Leather-1
+Paynes/Ilyn Payne/Whitewalker/Ice Blade-5/Chainmail-2
+Yarwycks/Othell Yarwyck/Wildling/Dagger-7/Armor_None-0
+
+The Riverlands/Old Gods of the Forest-2
+House Bolton/Walder Frey/Whitewalker/Ice Blade-5/Leather-1
+Brackens/Jonos Bracken/Wizard/Ice Staff-1/Armor_None-0
+Mootons/William Mooton/Whitewalker/Ice Blade-5/Leather-1
+Mallisters/Jason Mallister/Whitewalker/Ice Blade-5/Leather-1
+

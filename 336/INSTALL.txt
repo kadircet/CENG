@@ -1,0 +1,42 @@
+ ______________________________________________________________________
+>                                                                      <
+>                         PICos18 release 2.10                         <
+>                                                                      <
+>             PICos18 - Real-time kernel for PIC18 family              <
+>                                                                      <
+>                                                                      <
+> www.picos18.com                                    www.pragmatec.net <
+>______________________________________________________________________<
+
+
+
+INSTALLING PICos18 on Windows:
+------------------------------
+ - download the application directly from the web site.
+ 
+ - unzip the zip file and let all the file of the project in the 
+   same directory.
+
+
+INSTALLING PICos18 on Linux:
+----------------------------
+ - not yet available...
+
+
+COMPILING PICos18 on Windows:
+-----------------------------
+
+ - make sure you have MPLAB 7.31 or upper. Please inform PICos18 developers 
+   if you succeed to run PICos18 properly on a different release of MPLAB.
+   Last tested release is MPLAB v7.31.
+
+ - make sure you have MPLAB C18, PICmicro PIC18 demo C compiler v3.00 or
+   higher version (last tested version : v3.03).
+   PICos18 has been optimized for this compiler, and not any other  
+   compiler has been tested. Please inform PICos18 developers if you 
+   succeed to run PICos18 properly on a different release of MPLAB C18.
+
+- Have a look at the PICos18 forum (www.picos18.com/forum) to be inform
+  of the last platforms tested.
+
+

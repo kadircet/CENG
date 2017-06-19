@@ -1,0 +1,44 @@
+Kingdom Number : 7
+
+The Crownlands/Religion_None-0
+House Baratheon/Aegon Targaryen/Wizard/Voodoo Staff-4/Armor_None-0
+Brunes/Lothor Brune/Whitewalker/Ice Blade-5/Chainmail-2
+Gaunts/Gwayne Gaunt/Wizard/Ice Staff-1/Platemail-3
+Thornes/Alliser Thorne/Whitewalker/Ice Blade-5/Armor_None-0
+
+The North/God of Death-5
+House Stark/Benjen Stark/Wildling/Longbow-6/Armor_None-0
+Umbers/Greatjon Umber/Wildling/Dagger-7/Leather-1
+Dormunds/Marlin Dormund/Wildling/Longbow-6/Chainmail-2
+Karstarks/Rickard Karstark/Wizard/Ice Staff-1/Chainmail-2
+
+The Riverlands/Drowned God-3
+House Bolton/Walder Frey/Wizard/Fire Staff-2/Armor_None-0
+Mallisters/Jason Mallister/Whitewalker/Ice Blade-5/Chainmail-2
+Brackens/Jonos Bracken/Whitewalker/Ice Blade-5/Armor_None-0
+Mootons/William Mooton/Wildling/Dagger-7/Chainmail-2
+
+The Iron Islands/Old Gods of the Forest-2
+House Greyjoy/Euron Greyjoy/Wildling/Longbow-6/Platemail-3
+Sparrs/Lord Sparr/Wizard/Fire Staff-2/Chainmail-2
+Botleys/Sawane Botley/Wildling/Longbow-6/Leather-1
+Goodbrothers/Urragon Goodbrother/Whitewalker/Ice Blade-5/Leather-1
+
+The Reach/God of Death-5
+House Lannister/Luthor Tyrell/Whitewalker/Ice Blade-5/Armor_None-0
+Beesburys/Lyman Beesbury/Wizard/Voodoo Staff-4/Armor_None-0
+Hightowers/Leyton Hightower/Wizard/Voodoo Staff-4/Leather-1
+Leygoods/Lord Leygood/Whitewalker/Ice Blade-5/Chainmail-2
+
+Dorne/Lord of Light-4
+House Martell/Doran Martell/Whitewalker/Ice Blade-5/Platemail-3
+Manwoodys/Dagos Manwoody/Wizard/Lighting Staff-3/Leather-1
+Yronwoods/Edgar Yronwood/Wildling/Longbow-6/Platemail-3
+Gargalens/Lord Gargalen/Wildling/Dagger-7/Chainmail-2
+
+The Stormlands/Faith of the Seven-1
+House Tyrell/Robert Baratheon/Wizard/Voodoo Staff-4/Chainmail-2
+Grandisons/Hugh Grandison/Wizard/Fire Staff-2/Leather-1
+Peaseburys/Lord Peasebury/Wizard/Fire Staff-2/Chainmail-2
+Musgoods/Lord Musgood/Wizard/Fire Staff-2/Platemail-3
+

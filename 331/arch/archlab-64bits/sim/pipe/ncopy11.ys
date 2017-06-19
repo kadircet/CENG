@@ -1,0 +1,187 @@
+# Kadir CETINKAYA e2036457
+#/* $begin ncopy-ys */
+##################################################################
+# ncopy.ys - Copy a src block of len words to dst.
+# Return the number of positive words (>0) contained in src.
+#
+# Include your name and ID here.
+#
+# Describe how and why you modified the baseline code.
+# 
+# I first implemented loop unrolling with a factor of 9 and handled the remanings
+# with a jump table. For the jump table I used decremental access since I check by
+# subtracting from size, that way I saved another addition. Also since every address
+# is a quad, 8 bytes, the size should be multiplied by 8 I achived it by performing
+# 3 additions, each multplies size by 2. Also performed at least one operation after
+# a mrmov to make sure the result is ready for next operation to be peformed, that way
+# no bubble will be inserted into the pipe, except the size%9==1 case.
+#
+##################################################################
+# Do not modify this portion
+# Function prologue.
+# %rdi = src, %rsi = dst, %rdx = len
+ncopy:
+	xorq %rax, %rax # zero out the result
+	iaddq $-8, %rdx # subtract 8 from size
+	jg lin_loop # if still positive size is at least 9, take the loop
+calc_offset: # jump to remainder handling
+	addq %rdx, %rdx # rdx = 2*rdx
+	addq %rdx, %rdx # rdx = 2*rdx
+	addq %rdx, %rdx # rdx = 2*rdx
+	mrmovq JTableEnd(%rdx), %rdx # rdx = *(JTableEnd - 8*(size%9))
+	mrmovq (%rdi), %r8 # read first byte, even if size is zero, since read is an innocent operation
+	pushq %rdx # push the jump address
+	ret # jump to it
+
+.align 8
+	.quad Done
+	.quad x1m
+	.quad x2m
+	.quad x3m
+	.quad x4m
+	.quad x5m
+	.quad x6m
+	.quad x7m
+JTableEnd:
+	.quad x8m
+
+lin_loop: #size>8
+	mrmovq (%rdi), %r8 # read first quad from src
+	mrmovq 8(%rdi), %r9 # read second quad from src
+	mrmovq 16(%rdi), %r10 # third
+	mrmovq 24(%rdi), %r11 # and forth
+	andq %r8, %r8 # check whether first word is positive
+	jle n11 # if not do not perform addition
+	iaddq $1, %rax # if positive increment rax
+n11:
+	rmmovq %r9, 8(%rsi) # mov second quad from src to dest
+	rmmovq %r8, (%rsi) # mov first quad from src to dest
+	andq %r9, %r9 # check for second word, same as above
+	jle n21
+	iaddq $1, %rax
+n21:
+	rmmovq %r10, 16(%rsi) # move from src to dest
+	rmmovq %r11, 24(%rsi) # same as before
+	andq %r10, %r10 
+	jle n12
+	iaddq $1, %rax
+n12:
+	andq %r11, %r11
+	jle n22
+	iaddq $1, %rax
+n22:
+	mrmovq 32(%rdi), %r8 # read 5th quad from src
+	mrmovq 40(%rdi), %r9 # read 6th quad from src
+	andq %r8, %r8 # perform same checks
+	jle n13
+	iaddq $1, %rax
+n13:
+	rmmovq %r8, 32(%rsi)
+	rmmovq %r9, 40(%rsi)
+	andq %r9, %r9
+	jle n23
+	iaddq $1, %rax
+n23:
+	mrmovq 48(%rdi), %r8
+	mrmovq 56(%rdi), %r9
+	andq %r8, %r8
+	jle n14
+	iaddq $1, %rax
+n14:
+	rmmovq %r8, 48(%rsi)
+	andq %r9, %r9
+	jle n24
+	iaddq $1, %rax
+n24:
+	mrmovq 64(%rdi), %r8
+	rmmovq %r9, 56(%rsi)
+	andq %r8, %r8
+	jle n15
+	iaddq $1, %rax
+n15:
+	rmmovq %r8, 64(%rsi)
+
+done:
+	iaddq $72, %rdi # increment src by 72=8*9, 9 quad
+	iaddq $72, %rsi # increment dst by 72=8*9, 9 quad
+	iaddq $-9, %rdx # decrement size by 9
+lin_test:
+	jg lin_loop # check whether size is still positive
+	jmp calc_offset # if not check for remainder
+
+x8m: # remainder cases
+	mrmovq 56(%rdi), %r9 # does the same as the loop
+	mrmovq 48(%rdi), %r11 # only difference is also loads memory
+	rmmovq %r9, 56(%rsi) # going to be transffered for the next block
+	andq %r9, %r9 # to a register also and skip the movement in that step
+	jle x7m_f
+	iaddq $1, %rax
+x7m:
+	mrmovq 48(%rdi), %r11
+x7m_f:
+	mrmovq 40(%rdi), %r9
+	rmmovq %r11, 48(%rsi)
+	andq %r11, %r11
+	jle x6m_f
+	iaddq $1, %rax
+
+x6m:
+	mrmovq 40(%rdi), %r9
+x6m_f:
+	mrmovq 32(%rdi), %r10
+	rmmovq %r9, 40(%rsi)
+	andq %r9, %r9
+	jle x5m_f
+	iaddq $1, %rax
+
+x5m:
+	mrmovq 32(%rdi), %r10
+x5m_f:
+	mrmovq 24(%rdi), %r11
+	rmmovq %r10, 32(%rsi)
+	andq %r10, %r10
+	jle x4m_f
+	iaddq $1, %rax
+
+x4m:
+	mrmovq 24(%rdi), %r11
+x4m_f:
+	mrmovq 16(%rdi), %r10
+	rmmovq %r11, 24(%rsi)
+	andq %r11, %r11
+	jle x3m_f
+	iaddq $1, %rax
+
+x3m:
+	mrmovq 16(%rdi), %r10
+x3m_f:
+	mrmovq 8(%rdi), %r9
+	rmmovq %r10, 16(%rsi)
+	andq %r10, %r10
+	jle x2m_f
+	iaddq $1, %rax
+
+x2m:
+	mrmovq 8(%rdi), %r9
+x2m_f:
+	rmmovq %r9, 8(%rsi)
+	andq %r9, %r9
+	jle x1m_f
+	iaddq $1, %rax
+
+x1m:
+x1m_f:
+	rmmovq %r8, (%rsi)
+	andq %r8, %r8
+	jle Done
+	iaddq $1, %rax
+
+##################################################################
+# Do not modify the following section of code
+# Function epilogue.
+Done:
+	ret
+##################################################################
+# Keep the following label at the end of your function
+End:
+#/* $end ncopy-ys */

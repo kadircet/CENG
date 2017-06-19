@@ -1,0 +1,1070 @@
+TID: 00278c16797f0000, SID: 0, DID: 0, CID: 0, time stamp: 63, AID: 0, The ship created
+TID: 00170c16797f0000, SID: 1, DID: 0, CID: 0, time stamp: 82, AID: 0, The ship created
+TID: 00078c15797f0000, SID: 2, DID: 0, CID: 0, time stamp: 103, AID: 0, The ship created
+TID: 00f70b15797f0000, SID: 3, DID: 0, CID: 0, time stamp: 170, AID: 0, The ship created
+TID: 00e78b14797f0000, SID: 4, DID: 0, CID: 0, time stamp: 211, AID: 0, The ship created
+TID: 00e77f0f797f0000, SID: 6, DID: 0, CID: 0, time stamp: 463, AID: 0, The ship created
+TID: 00f7ff0f797f0000, SID: 5, DID: 0, CID: 0, time stamp: 467, AID: 0, The ship created
+TID: 00c77f0e797f0000, SID: 8, DID: 0, CID: 0, time stamp: 479, AID: 0, The ship created
+TID: 00d7ff0e797f0000, SID: 7, DID: 0, CID: 0, time stamp: 482, AID: 0, The ship created
+TID: 00b7ff0d797f0000, SID: 9, DID: 0, CID: 0, time stamp: 503, AID: 0, The ship created
+TID: 00a77f0d797f0000, SID: 10, DID: 0, CID: 0, time stamp: 519, AID: 0, The ship created
+TID: 00278c16797f0000, SID: 0, DID: 0, CID: 0, time stamp: 1123, AID: 1, The ship requested permission to dock
+TID: 00278c16797f0000, SID: 0, DID: 0, CID: 0, time stamp: 1128, AID: 2, The ship docked
+TID: 00278c16797f0000, SID: 0, DID: 0, CID: 0, time stamp: 1147, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 0, CID: 797, time stamp: 1151, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 0, CID: 0, time stamp: 2132, AID: 1, The ship requested permission to dock
+TID: 00170c16797f0000, SID: 1, DID: 0, CID: 0, time stamp: 2142, AID: 2, The ship docked
+TID: 00170c16797f0000, SID: 1, DID: 0, CID: 0, time stamp: 2146, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 0, CID: 796, time stamp: 2149, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 0, CID: 0, time stamp: 3148, AID: 1, The ship requested permission to dock
+TID: 00078c15797f0000, SID: 2, DID: 0, CID: 0, time stamp: 3170, AID: 2, The ship docked
+TID: 00078c15797f0000, SID: 2, DID: 0, CID: 0, time stamp: 3173, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 0, CID: 790, time stamp: 3176, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 0, CID: 0, time stamp: 4120, AID: 1, The ship requested permission to dock
+TID: 00f70b15797f0000, SID: 3, DID: 0, CID: 0, time stamp: 4127, AID: 2, The ship docked
+TID: 00f70b15797f0000, SID: 3, DID: 0, CID: 0, time stamp: 4131, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 0, CID: 789, time stamp: 4161, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 0, CID: 778, time stamp: 4217, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 0, CID: 0, time stamp: 5133, AID: 1, The ship requested permission to dock
+TID: 00e78b14797f0000, SID: 4, DID: 0, CID: 0, time stamp: 5142, AID: 2, The ship docked
+TID: 00e78b14797f0000, SID: 4, DID: 0, CID: 0, time stamp: 5146, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 0, CID: 777, time stamp: 5150, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 0, CID: 772, time stamp: 5250, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 0, CID: 0, time stamp: 6133, AID: 1, The ship requested permission to dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 0, CID: 0, time stamp: 6142, AID: 2, The ship docked
+TID: 00f7ff0f797f0000, SID: 5, DID: 0, CID: 0, time stamp: 6146, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 0, CID: 770, time stamp: 6164, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 0, CID: 769, time stamp: 6311, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 0, CID: 0, time stamp: 7148, AID: 1, The ship requested permission to dock
+TID: 00e77f0f797f0000, SID: 6, DID: 0, CID: 0, time stamp: 7171, AID: 2, The ship docked
+TID: 00e77f0f797f0000, SID: 6, DID: 0, CID: 0, time stamp: 7222, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 0, CID: 762, time stamp: 7241, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 0, CID: 756, time stamp: 7268, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 0, CID: 752, time stamp: 7288, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 0, CID: 0, time stamp: 8143, AID: 1, The ship requested permission to dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 0, CID: 0, time stamp: 8153, AID: 2, The ship docked
+TID: 00d7ff0e797f0000, SID: 7, DID: 0, CID: 0, time stamp: 8171, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 0, CID: 750, time stamp: 8175, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 0, CID: 748, time stamp: 8272, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 0, CID: 747, time stamp: 8335, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 0, CID: 0, time stamp: 9135, AID: 1, The ship requested permission to dock
+TID: 00c77f0e797f0000, SID: 8, DID: 0, CID: 0, time stamp: 9144, AID: 2, The ship docked
+TID: 00c77f0e797f0000, SID: 8, DID: 0, CID: 0, time stamp: 9148, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 0, CID: 741, time stamp: 9153, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 0, CID: 739, time stamp: 9278, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 0, CID: 731, time stamp: 9407, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 0, CID: 0, time stamp: 10131, AID: 1, The ship requested permission to dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 0, CID: 0, time stamp: 10139, AID: 2, The ship docked
+TID: 00b7ff0d797f0000, SID: 9, DID: 0, CID: 0, time stamp: 10142, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 0, CID: 726, time stamp: 10146, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 0, CID: 725, time stamp: 10345, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 0, CID: 714, time stamp: 10360, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 0, CID: 722, time stamp: 10350, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 0, CID: 713, time stamp: 11269, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 0, CID: 712, time stamp: 11348, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 0, CID: 711, time stamp: 11419, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 0, CID: 709, time stamp: 12302, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 0, CID: 700, time stamp: 12357, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 0, CID: 694, time stamp: 12474, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 0, CID: 692, time stamp: 13275, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 0, CID: 685, time stamp: 13437, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 0, CID: 684, time stamp: 13440, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 0, CID: 683, time stamp: 13473, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 0, CID: 674, time stamp: 14340, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 0, CID: 672, time stamp: 14437, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 0, CID: 667, time stamp: 14487, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 0, CID: 664, time stamp: 15383, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 0, CID: 661, time stamp: 15401, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 0, CID: 658, time stamp: 15546, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 0, CID: 655, time stamp: 16359, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 0, CID: 654, time stamp: 16519, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 0, CID: 652, time stamp: 16531, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 0, CID: 651, time stamp: 16585, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 0, CID: 646, time stamp: 17408, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 0, CID: 645, time stamp: 17531, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 0, CID: 642, time stamp: 17607, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 0, CID: 638, time stamp: 18475, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 0, CID: 632, time stamp: 18510, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 0, CID: 629, time stamp: 18611, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 0, CID: 615, time stamp: 19464, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 0, CID: 614, time stamp: 19610, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 0, CID: 613, time stamp: 19627, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 0, CID: 610, time stamp: 19659, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 0, CID: 609, time stamp: 20477, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 0, CID: 607, time stamp: 20622, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 0, CID: 602, time stamp: 20679, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 0, CID: 598, time stamp: 21578, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 0, CID: 587, time stamp: 21608, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 0, CID: 580, time stamp: 21676, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 0, CID: 579, time stamp: 22569, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 0, CID: 577, time stamp: 22699, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 0, CID: 572, time stamp: 22720, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 0, CID: 570, time stamp: 22756, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 0, CID: 565, time stamp: 23545, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 0, CID: 564, time stamp: 23700, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 0, CID: 556, time stamp: 23766, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 0, CID: 554, time stamp: 24693, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 0, CID: 547, time stamp: 24697, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 0, CID: 537, time stamp: 24762, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 0, CID: 532, time stamp: 25671, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 0, CID: 525, time stamp: 25782, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 0, CID: 523, time stamp: 25814, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 0, CID: 522, time stamp: 25857, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 0, CID: 508, time stamp: 26614, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 0, CID: 501, time stamp: 26790, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 0, CID: 495, time stamp: 26838, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 0, CID: 494, time stamp: 27766, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 0, CID: 493, time stamp: 27800, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 0, CID: 492, time stamp: 27828, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 0, CID: 485, time stamp: 28792, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 0, CID: 474, time stamp: 28869, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 0, CID: 470, time stamp: 28942, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 0, CID: 454, time stamp: 28974, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 0, CID: 453, time stamp: 29695, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 0, CID: 452, time stamp: 29873, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 0, CID: 438, time stamp: 29908, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 0, CID: 431, time stamp: 30837, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 0, CID: 430, time stamp: 30894, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 0, CID: 428, time stamp: 30903, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 0, CID: 427, time stamp: 31880, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 0, CID: 425, time stamp: 31955, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 0, CID: 421, time stamp: 32014, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 0, CID: 416, time stamp: 32046, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 0, CID: 413, time stamp: 32780, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 0, CID: 410, time stamp: 32943, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 0, CID: 407, time stamp: 32976, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 0, CID: 391, time stamp: 33908, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 0, CID: 390, time stamp: 33959, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 0, CID: 389, time stamp: 33990, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 0, CID: 387, time stamp: 34963, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 0, CID: 386, time stamp: 35041, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 0, CID: 385, time stamp: 35086, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 0, CID: 384, time stamp: 35116, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 0, CID: 0, time stamp: 35124, AID: 1, The ship requested permission to dock
+TID: 00a77f0d797f0000, SID: 10, DID: 0, CID: 0, time stamp: 35132, AID: 2, The ship docked
+TID: 00a77f0d797f0000, SID: 10, DID: 0, CID: 0, time stamp: 35135, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 0, CID: 383, time stamp: 35147, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 0, CID: 382, time stamp: 35858, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 0, CID: 381, time stamp: 36011, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 0, CID: 372, time stamp: 36048, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 0, CID: 369, time stamp: 36983, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 0, CID: 363, time stamp: 37013, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 0, CID: 359, time stamp: 37076, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 0, CID: 358, time stamp: 38050, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 0, CID: 357, time stamp: 38127, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 0, CID: 0, time stamp: 38160, AID: 7, The ship leaved the dock
+TID: 00f70b15797f0000, SID: 3, DID: 0, CID: 351, time stamp: 38188, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 0, CID: 349, time stamp: 38265, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 0, CID: 346, time stamp: 38944, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 0, CID: 344, time stamp: 39124, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 0, CID: 0, time stamp: 39132, AID: 7, The ship leaved the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 0, CID: 342, time stamp: 40053, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 0, CID: 0, time stamp: 40098, AID: 7, The ship leaved the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 0, CID: 340, time stamp: 40162, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 0, CID: 326, time stamp: 41139, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 0, CID: 324, time stamp: 41213, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 0, CID: 0, time stamp: 41260, AID: 7, The ship leaved the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 0, CID: 318, time stamp: 41351, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 0, CID: 315, time stamp: 42030, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 0, CID: 0, time stamp: 42196, AID: 7, The ship leaved the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 0, CID: 313, time stamp: 43124, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 1, CID: 0, time stamp: 43245, AID: 1, The ship requested permission to dock
+TID: 00278c16797f0000, SID: 0, DID: 1, CID: 0, time stamp: 43260, AID: 2, The ship docked
+TID: 00278c16797f0000, SID: 0, DID: 1, CID: 0, time stamp: 43267, AID: 3, The ship requested permission to unload its cargo
+TID: 00278c16797f0000, SID: 0, DID: 1, CID: 385, time stamp: 43273, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 0, CID: 0, time stamp: 43248, AID: 7, The ship leaved the dock
+TID: 00170c16797f0000, SID: 1, DID: 1, CID: 0, time stamp: 44200, AID: 1, The ship requested permission to dock
+TID: 00170c16797f0000, SID: 1, DID: 1, CID: 0, time stamp: 44207, AID: 2, The ship docked
+TID: 00170c16797f0000, SID: 1, DID: 1, CID: 0, time stamp: 44210, AID: 3, The ship requested permission to unload its cargo
+TID: 00170c16797f0000, SID: 1, DID: 1, CID: 372, time stamp: 44213, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 0, CID: 312, time stamp: 44227, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 0, CID: 0, time stamp: 44298, AID: 7, The ship leaved the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 0, CID: 301, time stamp: 44438, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 0, CID: 0, time stamp: 45115, AID: 7, The ship leaved the dock
+TID: 00078c15797f0000, SID: 2, DID: 1, CID: 0, time stamp: 45168, AID: 1, The ship requested permission to dock
+TID: 00078c15797f0000, SID: 2, DID: 1, CID: 0, time stamp: 45174, AID: 2, The ship docked
+TID: 00078c15797f0000, SID: 2, DID: 1, CID: 0, time stamp: 45209, AID: 3, The ship requested permission to unload its cargo
+TID: 00078c15797f0000, SID: 2, DID: 1, CID: 363, time stamp: 45213, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 1, CID: 421, time stamp: 45349, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 0, CID: 0, time stamp: 46191, AID: 7, The ship leaved the dock
+TID: 00170c16797f0000, SID: 1, DID: 1, CID: 407, time stamp: 46274, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 1, CID: 0, time stamp: 46324, AID: 1, The ship requested permission to dock
+TID: 00f70b15797f0000, SID: 3, DID: 1, CID: 0, time stamp: 46328, AID: 2, The ship docked
+TID: 00f70b15797f0000, SID: 3, DID: 1, CID: 0, time stamp: 46331, AID: 3, The ship requested permission to unload its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 1, CID: 351, time stamp: 46334, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 1, CID: 0, time stamp: 47264, AID: 1, The ship requested permission to dock
+TID: 00e78b14797f0000, SID: 4, DID: 1, CID: 0, time stamp: 47270, AID: 2, The ship docked
+TID: 00e78b14797f0000, SID: 4, DID: 1, CID: 0, time stamp: 47273, AID: 3, The ship requested permission to unload its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 1, CID: 344, time stamp: 47276, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 1, CID: 390, time stamp: 47290, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 0, CID: 0, time stamp: 47315, AID: 7, The ship leaved the dock
+TID: 00278c16797f0000, SID: 0, DID: 1, CID: 470, time stamp: 47431, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 0, CID: 300, time stamp: 47518, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 1, CID: 438, time stamp: 48342, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 1, CID: 0, time stamp: 48367, AID: 1, The ship requested permission to dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 1, CID: 0, time stamp: 48378, AID: 2, The ship docked
+TID: 00f7ff0f797f0000, SID: 5, DID: 1, CID: 0, time stamp: 48381, AID: 3, The ship requested permission to unload its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 1, CID: 340, time stamp: 48385, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 1, CID: 384, time stamp: 48396, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 1, CID: 381, time stamp: 49341, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 1, CID: 430, time stamp: 49379, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 1, CID: 0, time stamp: 49406, AID: 1, The ship requested permission to dock
+TID: 00e77f0f797f0000, SID: 6, DID: 1, CID: 0, time stamp: 49416, AID: 2, The ship docked
+TID: 00e77f0f797f0000, SID: 6, DID: 1, CID: 0, time stamp: 49420, AID: 3, The ship requested permission to unload its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 1, CID: 324, time stamp: 49423, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 1, CID: 523, time stamp: 49512, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 1, CID: 0, time stamp: 50199, AID: 1, The ship requested permission to dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 1, CID: 0, time stamp: 50209, AID: 2, The ship docked
+TID: 00d7ff0e797f0000, SID: 7, DID: 1, CID: 0, time stamp: 50212, AID: 3, The ship requested permission to unload its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 1, CID: 315, time stamp: 50216, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 1, CID: 495, time stamp: 50412, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 1, CID: 416, time stamp: 50461, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 1, CID: 359, time stamp: 50464, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 0, CID: 297, time stamp: 50590, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 1, CID: 0, time stamp: 51273, AID: 1, The ship requested permission to dock
+TID: 00c77f0e797f0000, SID: 8, DID: 1, CID: 0, time stamp: 51320, AID: 2, The ship docked
+TID: 00c77f0e797f0000, SID: 8, DID: 1, CID: 0, time stamp: 51325, AID: 3, The ship requested permission to unload its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 1, CID: 313, time stamp: 51328, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 1, CID: 410, time stamp: 51412, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 1, CID: 492, time stamp: 51452, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 1, CID: 357, time stamp: 51489, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 1, CID: 572, time stamp: 51596, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 1, CID: 346, time stamp: 52292, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 1, CID: 0, time stamp: 52402, AID: 1, The ship requested permission to dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 1, CID: 0, time stamp: 52411, AID: 2, The ship docked
+TID: 00b7ff0d797f0000, SID: 9, DID: 1, CID: 0, time stamp: 52415, AID: 3, The ship requested permission to unload its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 1, CID: 312, time stamp: 52419, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 1, CID: 556, time stamp: 52485, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 1, CID: 454, time stamp: 52530, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 1, CID: 389, time stamp: 52554, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 1, CID: 342, time stamp: 53404, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 1, CID: 537, time stamp: 53493, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 1, CID: 452, time stamp: 53501, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 1, CID: 386, time stamp: 53553, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 0, CID: 295, time stamp: 53657, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 1, CID: 613, time stamp: 53673, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 1, CID: 382, time stamp: 54379, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 1, CID: 326, time stamp: 54498, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 1, CID: 602, time stamp: 54556, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 1, CID: 522, time stamp: 54596, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 1, CID: 428, time stamp: 54639, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 1, CID: 369, time stamp: 55486, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 1, CID: 580, time stamp: 55557, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 1, CID: 501, time stamp: 55587, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 1, CID: 425, time stamp: 55613, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 1, CID: 652, time stamp: 55755, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 1, CID: 413, time stamp: 56462, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 1, CID: 358, time stamp: 56582, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 1, CID: 642, time stamp: 56627, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 1, CID: 570, time stamp: 56662, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 1, CID: 493, time stamp: 56722, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 0, CID: 293, time stamp: 56731, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 1, CID: 391, time stamp: 57557, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 1, CID: 629, time stamp: 57620, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 1, CID: 474, time stamp: 57674, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 1, CID: 564, time stamp: 57713, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 1, CID: 684, time stamp: 57839, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 1, CID: 453, time stamp: 58545, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 1, CID: 387, time stamp: 58667, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 1, CID: 667, time stamp: 58700, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 1, CID: 610, time stamp: 58729, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 1, CID: 547, time stamp: 58794, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 1, CID: 431, time stamp: 59672, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 1, CID: 658, time stamp: 59696, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 1, CID: 525, time stamp: 59738, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 1, CID: 607, time stamp: 59787, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 0, CID: 292, time stamp: 59816, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 1, CID: 714, time stamp: 59924, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 1, CID: 508, time stamp: 60629, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 1, CID: 427, time stamp: 60752, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 1, CID: 711, time stamp: 60773, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 1, CID: 651, time stamp: 60797, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 1, CID: 598, time stamp: 60895, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 1, CID: 494, time stamp: 61757, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 1, CID: 694, time stamp: 61781, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 1, CID: 577, time stamp: 61802, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 1, CID: 645, time stamp: 61852, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 1, CID: 752, time stamp: 62010, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 1, CID: 565, time stamp: 62713, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 1, CID: 485, time stamp: 62840, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 1, CID: 747, time stamp: 62844, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 1, CID: 683, time stamp: 62886, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 0, CID: 291, time stamp: 62888, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 1, CID: 638, time stamp: 62978, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 1, CID: 614, time stamp: 63841, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 1, CID: 731, time stamp: 63865, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 1, CID: 554, time stamp: 63848, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 1, CID: 672, time stamp: 63915, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 1, CID: 778, time stamp: 64093, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 1, CID: 609, time stamp: 64797, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 1, CID: 532, time stamp: 64931, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 1, CID: 772, time stamp: 64933, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 1, CID: 722, time stamp: 64956, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 1, CID: 664, time stamp: 65063, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 1, CID: 654, time stamp: 65936, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 1, CID: 587, time stamp: 65968, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 1, CID: 712, time stamp: 65978, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 1, CID: 769, time stamp: 65939, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 0, CID: 290, time stamp: 65979, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 1, CID: 797, time stamp: 66177, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 1, CID: 646, time stamp: 66911, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 1, CID: 579, time stamp: 67017, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 1, CID: 796, time stamp: 67062, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 1, CID: 756, time stamp: 67085, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 1, CID: 700, time stamp: 67135, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 1, CID: 748, time stamp: 68018, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 1, CID: 685, time stamp: 68019, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 1, CID: 632, time stamp: 68049, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 1, CID: 790, time stamp: 68090, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 1, CID: 0, time stamp: 68263, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 1, CID: 674, time stamp: 68995, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 0, CID: 289, time stamp: 69096, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 1, CID: 615, time stamp: 69102, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 1, CID: 0, time stamp: 69139, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 1, CID: 789, time stamp: 69154, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 1, CID: 739, time stamp: 69216, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 1, CID: 777, time stamp: 70094, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 1, CID: 725, time stamp: 70121, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 1, CID: 661, time stamp: 70126, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 1, CID: 0, time stamp: 70197, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 1, CID: 713, time stamp: 71079, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 1, CID: 655, time stamp: 71203, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 1, CID: 0, time stamp: 71221, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 1, CID: 770, time stamp: 71299, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 1, CID: 0, time stamp: 72164, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 0, CID: 0, time stamp: 72195, AID: 7, The ship leaved the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 1, CID: 709, time stamp: 72205, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 1, CID: 762, time stamp: 72222, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 1, CID: 750, time stamp: 73164, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 1, CID: 692, time stamp: 73289, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 1, CID: 0, time stamp: 73374, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 1, CID: 0, time stamp: 74293, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 1, CID: 741, time stamp: 74293, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 1, CID: 0, time stamp: 75250, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 1, CID: 726, time stamp: 75408, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 1, CID: 0, time stamp: 76392, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 0, time stamp: 77279, AID: 1, The ship requested permission to dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 0, time stamp: 77289, AID: 2, The ship docked
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 0, time stamp: 77292, AID: 3, The ship requested permission to unload its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 289, time stamp: 77296, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 1, CID: 0, time stamp: 77495, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 290, time stamp: 79372, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 291, time stamp: 81458, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 292, time stamp: 83538, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 293, time stamp: 85623, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 295, time stamp: 87710, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 1, CID: 0, time stamp: 88338, AID: 7, The ship leaved the dock
+TID: 00170c16797f0000, SID: 1, DID: 1, CID: 0, time stamp: 89210, AID: 7, The ship leaved the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 297, time stamp: 89794, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 1, CID: 0, time stamp: 90272, AID: 7, The ship leaved the dock
+TID: 00f70b15797f0000, SID: 3, DID: 1, CID: 0, time stamp: 91297, AID: 7, The ship leaved the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 300, time stamp: 91868, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 1, CID: 0, time stamp: 92228, AID: 7, The ship leaved the dock
+TID: 00278c16797f0000, SID: 0, DID: 2, CID: 0, time stamp: 93424, AID: 1, The ship requested permission to dock
+TID: 00278c16797f0000, SID: 0, DID: 2, CID: 0, time stamp: 93433, AID: 2, The ship docked
+TID: 00f7ff0f797f0000, SID: 5, DID: 1, CID: 0, time stamp: 93436, AID: 7, The ship leaved the dock
+TID: 00278c16797f0000, SID: 0, DID: 2, CID: 0, time stamp: 93439, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 2, CID: 786, time stamp: 93461, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 301, time stamp: 93940, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 2, CID: 0, time stamp: 94284, AID: 1, The ship requested permission to dock
+TID: 00170c16797f0000, SID: 1, DID: 2, CID: 0, time stamp: 94291, AID: 2, The ship docked
+TID: 00170c16797f0000, SID: 1, DID: 2, CID: 0, time stamp: 94294, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 2, CID: 781, time stamp: 94298, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 1, CID: 0, time stamp: 94355, AID: 7, The ship leaved the dock
+TID: 00078c15797f0000, SID: 2, DID: 2, CID: 0, time stamp: 95326, AID: 1, The ship requested permission to dock
+TID: 00078c15797f0000, SID: 2, DID: 2, CID: 0, time stamp: 95336, AID: 2, The ship docked
+TID: 00078c15797f0000, SID: 2, DID: 2, CID: 0, time stamp: 95341, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 2, CID: 780, time stamp: 95383, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 1, CID: 0, time stamp: 95354, AID: 7, The ship leaved the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 318, time stamp: 96025, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 2, CID: 0, time stamp: 96381, AID: 1, The ship requested permission to dock
+TID: 00f70b15797f0000, SID: 3, DID: 2, CID: 0, time stamp: 96391, AID: 2, The ship docked
+TID: 00f70b15797f0000, SID: 3, DID: 2, CID: 0, time stamp: 96395, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 2, CID: 773, time stamp: 96399, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 1, CID: 0, time stamp: 96468, AID: 7, The ship leaved the dock
+TID: 00278c16797f0000, SID: 0, DID: 2, CID: 767, time stamp: 96541, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 2, CID: 0, time stamp: 97299, AID: 1, The ship requested permission to dock
+TID: 00e78b14797f0000, SID: 4, DID: 2, CID: 0, time stamp: 97305, AID: 2, The ship docked
+TID: 00e78b14797f0000, SID: 4, DID: 2, CID: 0, time stamp: 97308, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 2, CID: 765, time stamp: 97312, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 2, CID: 760, time stamp: 97364, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 1, CID: 0, time stamp: 97572, AID: 7, The ship leaved the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 349, time stamp: 98109, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 2, CID: 758, time stamp: 98465, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 2, CID: 0, time stamp: 98515, AID: 1, The ship requested permission to dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 2, CID: 0, time stamp: 98525, AID: 2, The ship docked
+TID: 00f7ff0f797f0000, SID: 5, DID: 2, CID: 0, time stamp: 98530, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 2, CID: 754, time stamp: 98534, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 2, CID: 0, time stamp: 99422, AID: 1, The ship requested permission to dock
+TID: 00e77f0f797f0000, SID: 6, DID: 2, CID: 0, time stamp: 99429, AID: 2, The ship docked
+TID: 00e77f0f797f0000, SID: 6, DID: 2, CID: 0, time stamp: 99433, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 2, CID: 753, time stamp: 99437, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 2, CID: 743, time stamp: 99479, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 2, CID: 736, time stamp: 99620, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 383, time stamp: 100194, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 2, CID: 728, time stamp: 100378, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 2, CID: 727, time stamp: 100436, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 2, CID: 0, time stamp: 100502, AID: 1, The ship requested permission to dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 2, CID: 0, time stamp: 100512, AID: 2, The ship docked
+TID: 00d7ff0e797f0000, SID: 7, DID: 2, CID: 0, time stamp: 100516, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 2, CID: 724, time stamp: 100521, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 2, CID: 723, time stamp: 101550, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 2, CID: 0, time stamp: 101554, AID: 1, The ship requested permission to dock
+TID: 00c77f0e797f0000, SID: 8, DID: 2, CID: 0, time stamp: 101578, AID: 2, The ship docked
+TID: 00c77f0e797f0000, SID: 8, DID: 2, CID: 0, time stamp: 101627, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 2, CID: 719, time stamp: 101633, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 2, CID: 720, time stamp: 101614, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 0, time stamp: 102276, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 798, time stamp: 102286, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 2, CID: 718, time stamp: 102502, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 2, CID: 715, time stamp: 102567, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 2, CID: 0, time stamp: 102658, AID: 1, The ship requested permission to dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 2, CID: 0, time stamp: 102667, AID: 2, The ship docked
+TID: 00b7ff0d797f0000, SID: 9, DID: 2, CID: 0, time stamp: 102672, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 2, CID: 707, time stamp: 102677, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 2, CID: 706, time stamp: 102695, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 2, CID: 704, time stamp: 103447, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 2, CID: 703, time stamp: 103503, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 2, CID: 702, time stamp: 103602, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 2, CID: 701, time stamp: 104642, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 2, CID: 697, time stamp: 104714, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 2, CID: 696, time stamp: 104727, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 793, time stamp: 105363, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 2, CID: 695, time stamp: 105571, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 2, CID: 677, time stamp: 105653, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 2, CID: 669, time stamp: 105758, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 2, CID: 666, time stamp: 105766, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 2, CID: 665, time stamp: 106517, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 2, CID: 663, time stamp: 106571, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 2, CID: 660, time stamp: 106690, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 2, CID: 653, time stamp: 107729, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 2, CID: 647, time stamp: 107800, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 2, CID: 641, time stamp: 107801, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 791, time stamp: 108446, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 2, CID: 631, time stamp: 108640, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 2, CID: 621, time stamp: 108735, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 2, CID: 606, time stamp: 108838, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 2, CID: 604, time stamp: 108841, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 2, CID: 603, time stamp: 109587, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 2, CID: 599, time stamp: 109640, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 2, CID: 591, time stamp: 109778, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 2, CID: 585, time stamp: 110818, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 2, CID: 582, time stamp: 110877, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 2, CID: 568, time stamp: 110904, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 788, time stamp: 111529, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 2, CID: 560, time stamp: 111710, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 2, CID: 551, time stamp: 111821, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 2, CID: 548, time stamp: 111929, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 2, CID: 546, time stamp: 111932, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 2, CID: 545, time stamp: 112655, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 2, CID: 544, time stamp: 112739, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 2, CID: 543, time stamp: 112865, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 2, CID: 536, time stamp: 113897, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 2, CID: 535, time stamp: 113947, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 2, CID: 534, time stamp: 113981, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 787, time stamp: 114611, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 2, CID: 531, time stamp: 114780, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 2, CID: 524, time stamp: 114908, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 2, CID: 519, time stamp: 115006, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 2, CID: 517, time stamp: 115035, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 2, CID: 513, time stamp: 115724, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 2, CID: 509, time stamp: 115813, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 2, CID: 507, time stamp: 115952, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 2, CID: 504, time stamp: 116983, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 2, CID: 499, time stamp: 117019, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 2, CID: 498, time stamp: 117068, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 785, time stamp: 117686, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 2, CID: 491, time stamp: 117847, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 2, CID: 490, time stamp: 117995, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 2, CID: 489, time stamp: 118075, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 2, CID: 482, time stamp: 118114, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 2, CID: 479, time stamp: 118790, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 2, CID: 477, time stamp: 118886, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 2, CID: 475, time stamp: 119039, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 2, CID: 471, time stamp: 120070, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 2, CID: 467, time stamp: 120087, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 2, CID: 464, time stamp: 120155, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 783, time stamp: 120769, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 2, CID: 463, time stamp: 120915, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 2, CID: 462, time stamp: 121081, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 2, CID: 449, time stamp: 121145, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 2, CID: 448, time stamp: 121200, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 2, CID: 446, time stamp: 121861, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 2, CID: 442, time stamp: 121960, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 2, CID: 441, time stamp: 122127, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 2, CID: 439, time stamp: 123156, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 2, CID: 437, time stamp: 123184, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 2, CID: 433, time stamp: 123241, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 782, time stamp: 123841, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 2, CID: 426, time stamp: 123986, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 2, CID: 423, time stamp: 124169, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 2, CID: 418, time stamp: 124217, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 2, CID: 417, time stamp: 124316, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 2, CID: 414, time stamp: 124932, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 2, CID: 409, time stamp: 125033, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 2, CID: 408, time stamp: 125214, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 2, CID: 406, time stamp: 126242, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 2, CID: 402, time stamp: 126256, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 2, CID: 401, time stamp: 126326, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 776, time stamp: 126925, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 2, CID: 396, time stamp: 127057, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 2, CID: 395, time stamp: 127257, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 2, CID: 377, time stamp: 127291, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 2, CID: 375, time stamp: 127407, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 2, CID: 373, time stamp: 128003, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 2, CID: 367, time stamp: 128106, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 2, CID: 365, time stamp: 128302, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 2, CID: 362, time stamp: 129322, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 2, CID: 361, time stamp: 129330, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 2, CID: 355, time stamp: 129433, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 775, time stamp: 130010, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 2, CID: 348, time stamp: 130127, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 2, CID: 347, time stamp: 130343, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 2, CID: 0, time stamp: 130372, AID: 7, The ship leaved the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 2, CID: 343, time stamp: 130493, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 2, CID: 341, time stamp: 131072, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 2, CID: 0, time stamp: 131188, AID: 7, The ship leaved the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 2, CID: 332, time stamp: 131389, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 2, CID: 331, time stamp: 132394, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 2, CID: 0, time stamp: 132426, AID: 7, The ship leaved the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 2, CID: 329, time stamp: 132505, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 771, time stamp: 133095, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 2, CID: 327, time stamp: 133224, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 2, CID: 0, time stamp: 133437, AID: 7, The ship leaved the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 2, CID: 325, time stamp: 133579, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 2, CID: 0, time stamp: 134149, AID: 7, The ship leaved the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 2, CID: 322, time stamp: 134476, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 0, time stamp: 135453, AID: 1, The ship requested permission to dock
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 0, time stamp: 135462, AID: 2, The ship docked
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 0, time stamp: 135466, AID: 3, The ship requested permission to unload its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 2, CID: 0, time stamp: 135467, AID: 7, The ship leaved the dock
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 377, time stamp: 135470, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 2, CID: 321, time stamp: 135587, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 768, time stamp: 136180, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 0, time stamp: 136261, AID: 1, The ship requested permission to dock
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 0, time stamp: 136267, AID: 2, The ship docked
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 0, time stamp: 136270, AID: 3, The ship requested permission to unload its cargo
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 367, time stamp: 136273, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 2, CID: 0, time stamp: 136298, AID: 7, The ship leaved the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 2, CID: 319, time stamp: 136664, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 0, time stamp: 137511, AID: 1, The ship requested permission to dock
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 0, time stamp: 137521, AID: 2, The ship docked
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 0, time stamp: 137525, AID: 3, The ship requested permission to unload its cargo
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 361, time stamp: 137528, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 2, CID: 0, time stamp: 137558, AID: 7, The ship leaved the dock
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 418, time stamp: 137560, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 409, time stamp: 138340, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 0, time stamp: 138522, AID: 1, The ship requested permission to dock
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 0, time stamp: 138532, AID: 2, The ship docked
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 0, time stamp: 138567, AID: 3, The ship requested permission to unload its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 347, time stamp: 138572, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 2, CID: 0, time stamp: 138680, AID: 7, The ship leaved the dock
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 0, time stamp: 139215, AID: 1, The ship requested permission to dock
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 0, time stamp: 139221, AID: 2, The ship docked
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 0, time stamp: 139224, AID: 3, The ship requested permission to unload its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 341, time stamp: 139227, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 1, CID: 0, time stamp: 139273, AID: 7, The ship leaved the dock
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 406, time stamp: 139600, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 449, time stamp: 139647, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 2, CID: 0, time stamp: 139759, AID: 7, The ship leaved the dock
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 442, time stamp: 140411, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 0, time stamp: 140543, AID: 1, The ship requested permission to dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 0, time stamp: 140549, AID: 2, The ship docked
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 0, time stamp: 140552, AID: 3, The ship requested permission to unload its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 331, time stamp: 140555, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 395, time stamp: 140647, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 373, time stamp: 141295, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 0, time stamp: 141361, AID: 1, The ship requested permission to dock
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 0, time stamp: 141366, AID: 2, The ship docked
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 0, time stamp: 141369, AID: 3, The ship requested permission to unload its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 327, time stamp: 141371, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 439, time stamp: 141681, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 489, time stamp: 141721, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 477, time stamp: 142482, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 362, time stamp: 142621, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 0, time stamp: 142647, AID: 1, The ship requested permission to dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 0, time stamp: 142657, AID: 2, The ship docked
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 0, time stamp: 142661, AID: 3, The ship requested permission to unload its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 322, time stamp: 142664, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 423, time stamp: 142733, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 414, time stamp: 143360, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 348, time stamp: 143430, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 0, time stamp: 143764, AID: 1, The ship requested permission to dock
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 0, time stamp: 143773, AID: 2, The ship docked
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 0, time stamp: 143777, AID: 3, The ship requested permission to unload its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 321, time stamp: 143781, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 519, time stamp: 143790, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 471, time stamp: 143790, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 0, time stamp: 144357, AID: 1, The ship requested permission to dock
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 0, time stamp: 144367, AID: 2, The ship docked
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 0, time stamp: 144371, AID: 3, The ship requested permission to unload its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 768, time stamp: 144374, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 509, time stamp: 144553, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 402, time stamp: 144690, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 332, time stamp: 144742, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 462, time stamp: 144819, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 0, time stamp: 144830, AID: 1, The ship requested permission to dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 0, time stamp: 144836, AID: 2, The ship docked
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 0, time stamp: 144839, AID: 3, The ship requested permission to unload its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 319, time stamp: 144842, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 446, time stamp: 145429, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 396, time stamp: 145492, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 329, time stamp: 145862, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 548, time stamp: 145902, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 504, time stamp: 145953, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 771, time stamp: 146451, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 544, time stamp: 146625, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 437, time stamp: 146767, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 365, time stamp: 146827, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 490, time stamp: 146901, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 325, time stamp: 146905, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 479, time stamp: 147501, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 426, time stamp: 147555, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 355, time stamp: 147947, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 604, time stamp: 147978, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 536, time stamp: 148038, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 775, time stamp: 148534, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 599, time stamp: 148695, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 467, time stamp: 148836, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 408, time stamp: 148910, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 343, time stamp: 148989, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 524, time stamp: 148993, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 513, time stamp: 149567, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 463, time stamp: 149616, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 401, time stamp: 150030, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 666, time stamp: 150054, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 585, time stamp: 150125, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 776, time stamp: 150618, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 663, time stamp: 150767, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 499, time stamp: 150907, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 441, time stamp: 150995, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 375, time stamp: 151053, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 551, time stamp: 151081, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 545, time stamp: 151639, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 491, time stamp: 151667, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 433, time stamp: 152115, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 706, time stamp: 152163, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 653, time stamp: 152211, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 782, time stamp: 152701, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 703, time stamp: 152838, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 535, time stamp: 152978, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 475, time stamp: 153084, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 417, time stamp: 153088, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 621, time stamp: 153165, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 603, time stamp: 153706, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 531, time stamp: 153747, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 464, time stamp: 154200, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 736, time stamp: 154238, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 701, time stamp: 154296, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 783, time stamp: 154785, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 727, time stamp: 154908, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 582, time stamp: 155048, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 507, time stamp: 155175, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 448, time stamp: 155195, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 677, time stamp: 155249, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 665, time stamp: 155772, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 560, time stamp: 155829, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 498, time stamp: 156283, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 767, time stamp: 156313, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 723, time stamp: 156380, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 785, time stamp: 156868, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 760, time stamp: 156977, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 647, time stamp: 157113, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 482, time stamp: 157256, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 543, time stamp: 157261, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 715, time stamp: 157333, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 704, time stamp: 157840, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 631, time stamp: 157914, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 534, time stamp: 158366, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 786, time stamp: 158391, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 758, time stamp: 158464, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 787, time stamp: 158952, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 781, time stamp: 159048, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 696, time stamp: 159181, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 591, time stamp: 159376, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 517, time stamp: 159379, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 743, time stamp: 159422, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 728, time stamp: 159910, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 695, time stamp: 159998, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 568, time stamp: 160442, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 0, time stamp: 160471, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 780, time stamp: 160525, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 788, time stamp: 161036, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 0, time stamp: 161124, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 720, time stamp: 161252, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 660, time stamp: 161473, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 546, time stamp: 161502, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 773, time stamp: 161509, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 765, time stamp: 161979, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 718, time stamp: 162104, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 641, time stamp: 162538, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 0, time stamp: 162623, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 791, time stamp: 163121, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 754, time stamp: 163320, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 702, time stamp: 163559, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 0, time stamp: 163584, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 606, time stamp: 163584, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 0, time stamp: 164046, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 753, time stamp: 164188, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 697, time stamp: 164621, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 793, time stamp: 165208, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 0, time stamp: 165392, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 724, time stamp: 165633, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 669, time stamp: 165682, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 0, time stamp: 166274, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 719, time stamp: 166704, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 798, time stamp: 167287, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 0, time stamp: 167704, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 707, time stamp: 167767, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 0, time stamp: 168792, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 0, time stamp: 169358, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 316, time stamp: 169374, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 0, time stamp: 169900, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 794, time stamp: 169911, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 792, time stamp: 169922, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 795, time stamp: 169910, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 764, time stamp: 169942, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 784, time stamp: 169925, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 761, time stamp: 169963, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 779, time stamp: 169925, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 774, time stamp: 169934, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 799, time stamp: 169906, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 757, time stamp: 169977, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 308, time stamp: 172439, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 755, time stamp: 172989, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 751, time stamp: 173017, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 746, time stamp: 173023, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 749, time stamp: 173023, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 737, time stamp: 173050, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 732, time stamp: 173061, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 716, time stamp: 173097, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 735, time stamp: 173059, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 708, time stamp: 173099, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 717, time stamp: 173061, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 305, time stamp: 175519, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 705, time stamp: 176085, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 699, time stamp: 176100, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 679, time stamp: 176162, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 676, time stamp: 176180, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 686, time stamp: 176103, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 678, time stamp: 176168, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 673, time stamp: 176243, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 682, time stamp: 176113, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 670, time stamp: 176264, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 668, time stamp: 176333, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 304, time stamp: 178596, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 659, time stamp: 179156, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 656, time stamp: 179221, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 650, time stamp: 179261, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 649, time stamp: 179278, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 635, time stamp: 179286, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 639, time stamp: 179281, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 634, time stamp: 179322, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 628, time stamp: 179328, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 626, time stamp: 179352, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 625, time stamp: 179416, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 302, time stamp: 181683, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 624, time stamp: 182252, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 622, time stamp: 182289, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 618, time stamp: 182357, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 594, time stamp: 182364, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 617, time stamp: 182360, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 600, time stamp: 182360, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 589, time stamp: 182446, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 592, time stamp: 182404, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 588, time stamp: 182464, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 584, time stamp: 182494, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 298, time stamp: 184777, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 581, time stamp: 185370, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 578, time stamp: 185389, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 571, time stamp: 185435, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 566, time stamp: 185468, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 563, time stamp: 185505, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 540, time stamp: 185587, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 559, time stamp: 185508, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 558, time stamp: 185537, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 550, time stamp: 185541, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 542, time stamp: 185570, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 286, time stamp: 187864, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 533, time stamp: 188460, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 518, time stamp: 188468, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 516, time stamp: 188515, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 515, time stamp: 188516, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 512, time stamp: 188657, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 511, time stamp: 188659, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 506, time stamp: 188702, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 505, time stamp: 188767, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 502, time stamp: 188790, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 500, time stamp: 188838, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 284, time stamp: 190952, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 497, time stamp: 191562, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 473, time stamp: 191583, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 469, time stamp: 191600, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 480, time stamp: 191563, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 466, time stamp: 191727, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 465, time stamp: 191748, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 460, time stamp: 191767, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 456, time stamp: 191844, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 455, time stamp: 191866, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 451, time stamp: 191914, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 279, time stamp: 194032, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 450, time stamp: 194645, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 445, time stamp: 194663, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 443, time stamp: 194677, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 440, time stamp: 194688, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 436, time stamp: 194790, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 434, time stamp: 194825, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 429, time stamp: 194833, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 424, time stamp: 194910, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 420, time stamp: 194944, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 415, time stamp: 194987, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 278, time stamp: 197105, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 412, time stamp: 197712, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 403, time stamp: 197728, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 399, time stamp: 197746, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 398, time stamp: 197756, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 397, time stamp: 197853, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 394, time stamp: 197899, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 379, time stamp: 197908, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 378, time stamp: 198032, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 374, time stamp: 198065, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 368, time stamp: 198074, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 274, time stamp: 200178, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 356, time stamp: 200786, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 354, time stamp: 200817, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 352, time stamp: 200827, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 353, time stamp: 200821, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 350, time stamp: 200917, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 345, time stamp: 200963, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 339, time stamp: 200995, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 336, time stamp: 201108, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 335, time stamp: 201141, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 334, time stamp: 201149, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 268, time stamp: 203262, AID: 6, The ship loading cargo from the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 330, time stamp: 203862, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 328, time stamp: 203893, AID: 6, The ship loading cargo from the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 323, time stamp: 203905, AID: 6, The ship loading cargo from the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 314, time stamp: 203911, AID: 6, The ship loading cargo from the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 307, time stamp: 203981, AID: 6, The ship loading cargo from the dock
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 306, time stamp: 204027, AID: 6, The ship loading cargo from the dock
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 296, time stamp: 204083, AID: 6, The ship loading cargo from the dock
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 294, time stamp: 204175, AID: 6, The ship loading cargo from the dock
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 287, time stamp: 204214, AID: 6, The ship loading cargo from the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 283, time stamp: 204222, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 2, CID: 0, time stamp: 206349, AID: 7, The ship leaved the dock
+TID: 00c77f0e797f0000, SID: 8, DID: 3, CID: 0, time stamp: 206946, AID: 7, The ship leaved the dock
+TID: 00278c16797f0000, SID: 0, DID: 3, CID: 0, time stamp: 206969, AID: 7, The ship leaved the dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 3, CID: 0, time stamp: 206994, AID: 7, The ship leaved the dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 3, CID: 0, time stamp: 206995, AID: 7, The ship leaved the dock
+TID: 00e77f0f797f0000, SID: 6, DID: 3, CID: 0, time stamp: 207047, AID: 7, The ship leaved the dock
+TID: 00e78b14797f0000, SID: 4, DID: 3, CID: 0, time stamp: 207092, AID: 7, The ship leaved the dock
+TID: 00078c15797f0000, SID: 2, DID: 3, CID: 0, time stamp: 207172, AID: 7, The ship leaved the dock
+TID: 00f70b15797f0000, SID: 3, DID: 3, CID: 0, time stamp: 207240, AID: 7, The ship leaved the dock
+TID: 00170c16797f0000, SID: 1, DID: 3, CID: 0, time stamp: 207287, AID: 7, The ship leaved the dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 3, CID: 0, time stamp: 207293, AID: 7, The ship leaved the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 0, time stamp: 211472, AID: 1, The ship requested permission to dock
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 0, time stamp: 211482, AID: 2, The ship docked
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 0, time stamp: 211485, AID: 3, The ship requested permission to unload its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 268, time stamp: 211489, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 4, CID: 0, time stamp: 212035, AID: 1, The ship requested permission to dock
+TID: 00c77f0e797f0000, SID: 8, DID: 4, CID: 0, time stamp: 212047, AID: 2, The ship docked
+TID: 00c77f0e797f0000, SID: 8, DID: 4, CID: 0, time stamp: 212058, AID: 3, The ship requested permission to unload its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 4, CID: 330, time stamp: 212068, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 4, CID: 0, time stamp: 212062, AID: 1, The ship requested permission to dock
+TID: 00278c16797f0000, SID: 0, DID: 4, CID: 0, time stamp: 212089, AID: 2, The ship docked
+TID: 00278c16797f0000, SID: 0, DID: 4, CID: 0, time stamp: 212096, AID: 3, The ship requested permission to unload its cargo
+TID: 00278c16797f0000, SID: 0, DID: 4, CID: 328, time stamp: 212108, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 4, CID: 0, time stamp: 212097, AID: 1, The ship requested permission to dock
+TID: 00f7ff0f797f0000, SID: 5, DID: 4, CID: 0, time stamp: 212134, AID: 2, The ship docked
+TID: 00f7ff0f797f0000, SID: 5, DID: 4, CID: 0, time stamp: 212147, AID: 3, The ship requested permission to unload its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 4, CID: 323, time stamp: 212153, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 4, CID: 0, time stamp: 212155, AID: 1, The ship requested permission to dock
+TID: 00d7ff0e797f0000, SID: 7, DID: 4, CID: 0, time stamp: 212174, AID: 2, The ship docked
+TID: 00d7ff0e797f0000, SID: 7, DID: 4, CID: 0, time stamp: 212182, AID: 3, The ship requested permission to unload its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 4, CID: 314, time stamp: 212186, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 4, CID: 0, time stamp: 212193, AID: 1, The ship requested permission to dock
+TID: 00e78b14797f0000, SID: 4, DID: 4, CID: 0, time stamp: 212203, AID: 2, The ship docked
+TID: 00e78b14797f0000, SID: 4, DID: 4, CID: 0, time stamp: 212206, AID: 3, The ship requested permission to unload its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 4, CID: 306, time stamp: 212210, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 4, CID: 0, time stamp: 212217, AID: 1, The ship requested permission to dock
+TID: 00e77f0f797f0000, SID: 6, DID: 4, CID: 0, time stamp: 212227, AID: 2, The ship docked
+TID: 00e77f0f797f0000, SID: 6, DID: 4, CID: 0, time stamp: 212232, AID: 3, The ship requested permission to unload its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 4, CID: 307, time stamp: 212247, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 4, CID: 0, time stamp: 212258, AID: 1, The ship requested permission to dock
+TID: 00078c15797f0000, SID: 2, DID: 4, CID: 0, time stamp: 212298, AID: 2, The ship docked
+TID: 00078c15797f0000, SID: 2, DID: 4, CID: 0, time stamp: 212301, AID: 3, The ship requested permission to unload its cargo
+TID: 00078c15797f0000, SID: 2, DID: 4, CID: 296, time stamp: 212305, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 4, CID: 0, time stamp: 212307, AID: 1, The ship requested permission to dock
+TID: 00f70b15797f0000, SID: 3, DID: 4, CID: 0, time stamp: 212314, AID: 2, The ship docked
+TID: 00f70b15797f0000, SID: 3, DID: 4, CID: 0, time stamp: 212317, AID: 3, The ship requested permission to unload its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 4, CID: 294, time stamp: 212320, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 4, CID: 0, time stamp: 212361, AID: 1, The ship requested permission to dock
+TID: 00170c16797f0000, SID: 1, DID: 4, CID: 0, time stamp: 212368, AID: 2, The ship docked
+TID: 00170c16797f0000, SID: 1, DID: 4, CID: 0, time stamp: 212374, AID: 3, The ship requested permission to unload its cargo
+TID: 00170c16797f0000, SID: 1, DID: 4, CID: 287, time stamp: 212377, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 4, CID: 0, time stamp: 212394, AID: 1, The ship requested permission to dock
+TID: 00b7ff0d797f0000, SID: 9, DID: 4, CID: 0, time stamp: 212401, AID: 2, The ship docked
+TID: 00b7ff0d797f0000, SID: 9, DID: 4, CID: 0, time stamp: 212405, AID: 3, The ship requested permission to unload its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 4, CID: 283, time stamp: 212409, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 274, time stamp: 213566, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 4, CID: 356, time stamp: 214153, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 4, CID: 352, time stamp: 214187, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 4, CID: 354, time stamp: 214236, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 4, CID: 353, time stamp: 214248, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 4, CID: 345, time stamp: 214273, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 4, CID: 339, time stamp: 214365, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 4, CID: 350, time stamp: 214365, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 4, CID: 336, time stamp: 214382, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 4, CID: 335, time stamp: 214443, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 4, CID: 334, time stamp: 214479, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 278, time stamp: 215651, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 4, CID: 412, time stamp: 216237, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 4, CID: 398, time stamp: 216263, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 4, CID: 403, time stamp: 216316, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 4, CID: 399, time stamp: 216321, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 4, CID: 394, time stamp: 216337, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 4, CID: 379, time stamp: 216432, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 4, CID: 378, time stamp: 216465, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 4, CID: 397, time stamp: 216469, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 4, CID: 374, time stamp: 216513, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 4, CID: 368, time stamp: 216558, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 279, time stamp: 217736, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 4, CID: 450, time stamp: 218323, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 4, CID: 440, time stamp: 218338, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 4, CID: 445, time stamp: 218394, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 4, CID: 443, time stamp: 218412, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 4, CID: 429, time stamp: 218420, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 4, CID: 434, time stamp: 218494, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 4, CID: 424, time stamp: 218529, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 4, CID: 436, time stamp: 218559, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 4, CID: 420, time stamp: 218585, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 4, CID: 415, time stamp: 218666, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 284, time stamp: 219820, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 4, CID: 480, time stamp: 220415, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 4, CID: 497, time stamp: 220434, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 4, CID: 473, time stamp: 220461, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 4, CID: 460, time stamp: 220490, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 4, CID: 469, time stamp: 220515, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 4, CID: 465, time stamp: 220556, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 4, CID: 456, time stamp: 220600, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 4, CID: 466, time stamp: 220634, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 4, CID: 455, time stamp: 220657, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 4, CID: 451, time stamp: 220735, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 286, time stamp: 221905, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 4, CID: 518, time stamp: 222501, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 4, CID: 533, time stamp: 222521, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 4, CID: 516, time stamp: 222531, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 4, CID: 506, time stamp: 222565, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 4, CID: 515, time stamp: 222599, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 4, CID: 511, time stamp: 222618, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 4, CID: 505, time stamp: 222669, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 4, CID: 512, time stamp: 222700, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 4, CID: 502, time stamp: 222728, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 4, CID: 500, time stamp: 222809, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 298, time stamp: 223980, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 4, CID: 578, time stamp: 224586, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 4, CID: 581, time stamp: 224607, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 4, CID: 566, time stamp: 224611, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 4, CID: 559, time stamp: 224639, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 4, CID: 563, time stamp: 224681, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 4, CID: 571, time stamp: 224685, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 4, CID: 558, time stamp: 224732, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 4, CID: 540, time stamp: 224764, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 4, CID: 550, time stamp: 224801, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 4, CID: 542, time stamp: 224882, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 302, time stamp: 226064, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 4, CID: 622, time stamp: 226669, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 4, CID: 624, time stamp: 226696, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 4, CID: 600, time stamp: 226714, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 4, CID: 594, time stamp: 226696, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 4, CID: 617, time stamp: 226780, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 4, CID: 589, time stamp: 226811, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 4, CID: 618, time stamp: 226819, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 4, CID: 588, time stamp: 226834, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 4, CID: 592, time stamp: 226870, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 4, CID: 584, time stamp: 226962, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 304, time stamp: 228152, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 4, CID: 656, time stamp: 228752, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 4, CID: 659, time stamp: 228786, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 4, CID: 635, time stamp: 228797, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 4, CID: 649, time stamp: 228801, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 4, CID: 650, time stamp: 228830, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 4, CID: 639, time stamp: 228876, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 4, CID: 634, time stamp: 228895, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 4, CID: 626, time stamp: 228899, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 4, CID: 628, time stamp: 228934, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 4, CID: 625, time stamp: 229045, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 305, time stamp: 230235, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 4, CID: 699, time stamp: 230831, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 4, CID: 705, time stamp: 230863, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 4, CID: 676, time stamp: 230881, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 4, CID: 686, time stamp: 230869, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 4, CID: 679, time stamp: 230914, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 4, CID: 670, time stamp: 230939, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 4, CID: 678, time stamp: 230965, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 4, CID: 673, time stamp: 230971, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 4, CID: 682, time stamp: 231001, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 4, CID: 668, time stamp: 231120, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 308, time stamp: 232319, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 4, CID: 751, time stamp: 232912, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 4, CID: 755, time stamp: 232953, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 4, CID: 716, time stamp: 232955, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 4, CID: 746, time stamp: 232972, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 4, CID: 732, time stamp: 232995, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 4, CID: 737, time stamp: 233003, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 4, CID: 708, time stamp: 233003, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 4, CID: 735, time stamp: 233034, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 4, CID: 749, time stamp: 233066, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 4, CID: 717, time stamp: 233195, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 316, time stamp: 234438, AID: 4, The ship unloading its cargo
+TID: 00278c16797f0000, SID: 0, DID: 4, CID: 795, time stamp: 234996, AID: 4, The ship unloading its cargo
+TID: 00c77f0e797f0000, SID: 8, DID: 4, CID: 794, time stamp: 235045, AID: 4, The ship unloading its cargo
+TID: 00f7ff0f797f0000, SID: 5, DID: 4, CID: 761, time stamp: 235057, AID: 4, The ship unloading its cargo
+TID: 00d7ff0e797f0000, SID: 7, DID: 4, CID: 799, time stamp: 235046, AID: 4, The ship unloading its cargo
+TID: 00e78b14797f0000, SID: 4, DID: 4, CID: 792, time stamp: 235086, AID: 4, The ship unloading its cargo
+TID: 00e77f0f797f0000, SID: 6, DID: 4, CID: 774, time stamp: 235095, AID: 4, The ship unloading its cargo
+TID: 00f70b15797f0000, SID: 3, DID: 4, CID: 757, time stamp: 235086, AID: 4, The ship unloading its cargo
+TID: 00078c15797f0000, SID: 2, DID: 4, CID: 784, time stamp: 235090, AID: 4, The ship unloading its cargo
+TID: 00170c16797f0000, SID: 1, DID: 4, CID: 764, time stamp: 235129, AID: 4, The ship unloading its cargo
+TID: 00b7ff0d797f0000, SID: 9, DID: 4, CID: 779, time stamp: 235263, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 0, time stamp: 236525, AID: 5, The ship requested permission to load cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 282, time stamp: 236546, AID: 6, The ship loading cargo from the dock
+TID: 00278c16797f0000, SID: 0, DID: 0, CID: 0, time stamp: 237082, AID: 8, The ship destroyed
+TID: 00c77f0e797f0000, SID: 8, DID: 0, CID: 0, time stamp: 237131, AID: 8, The ship destroyed
+TID: 00f7ff0f797f0000, SID: 5, DID: 0, CID: 0, time stamp: 237140, AID: 8, The ship destroyed
+TID: 00d7ff0e797f0000, SID: 7, DID: 0, CID: 0, time stamp: 237151, AID: 8, The ship destroyed
+TID: 00e77f0f797f0000, SID: 6, DID: 0, CID: 0, time stamp: 237146, AID: 8, The ship destroyed
+TID: 00e78b14797f0000, SID: 4, DID: 0, CID: 0, time stamp: 237179, AID: 8, The ship destroyed
+TID: 00078c15797f0000, SID: 2, DID: 0, CID: 0, time stamp: 237190, AID: 8, The ship destroyed
+TID: 00f70b15797f0000, SID: 3, DID: 0, CID: 0, time stamp: 237172, AID: 8, The ship destroyed
+TID: 00170c16797f0000, SID: 1, DID: 0, CID: 0, time stamp: 237251, AID: 8, The ship destroyed
+TID: 00b7ff0d797f0000, SID: 9, DID: 0, CID: 0, time stamp: 237335, AID: 8, The ship destroyed
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 271, time stamp: 239626, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 265, time stamp: 242710, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 262, time stamp: 245794, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 249, time stamp: 248878, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 247, time stamp: 251963, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 243, time stamp: 255049, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 241, time stamp: 258168, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 240, time stamp: 261256, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 234, time stamp: 264335, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 227, time stamp: 267411, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 225, time stamp: 270485, AID: 6, The ship loading cargo from the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 3, CID: 0, time stamp: 273544, AID: 7, The ship leaved the dock
+TID: 00a77f0d797f0000, SID: 10, DID: 4, CID: 0, time stamp: 278602, AID: 1, The ship requested permission to dock
+TID: 00a77f0d797f0000, SID: 10, DID: 4, CID: 0, time stamp: 278605, AID: 2, The ship docked
+TID: 00a77f0d797f0000, SID: 10, DID: 4, CID: 0, time stamp: 278606, AID: 3, The ship requested permission to unload its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 4, CID: 225, time stamp: 278607, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 4, CID: 227, time stamp: 280663, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 4, CID: 234, time stamp: 282728, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 4, CID: 240, time stamp: 284794, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 4, CID: 241, time stamp: 286856, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 4, CID: 243, time stamp: 288920, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 4, CID: 247, time stamp: 290983, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 4, CID: 249, time stamp: 293047, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 4, CID: 262, time stamp: 295110, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 4, CID: 265, time stamp: 297173, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 4, CID: 271, time stamp: 299237, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 4, CID: 282, time stamp: 301299, AID: 4, The ship unloading its cargo
+TID: 00a77f0d797f0000, SID: 10, DID: 0, CID: 0, time stamp: 303363, AID: 8, The ship destroyed
