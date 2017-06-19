@@ -1,0 +1,383 @@
+\documentclass[conference,compsoc]{IEEEtran}
+% *** CITATION PACKAGES ***
+%
+\ifCLASSOPTIONcompsoc
+  % IEEE Computer Society needs nocompress option
+  % requires cite.sty v4.0 or later (November 2003)
+  \usepackage[nocompress]{cite}
+\else
+  % normal IEEE
+  \usepackage{cite}
+\fi
+\usepackage{graphicx}
+\graphicspath{ {../} }
+\usepackage{amsmath}
+\usepackage{url}
+\interdisplaylinepenalty=2500
+\usepackage{array}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\newcommand{\subparagraph}{}
+\usepackage{titlesec}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{.8em}{}
+\titlespacing*{\paragraph}{0pt}{0ex}{0ex}
+
+\begin{document}
+\title{Basic Question Answering with Recurrent Models in Turkish}
+\author{\IEEEauthorblockN{Kadir Cetinkaya}
+\IEEEauthorblockA{Department of Computer Engineering\\
+Middle East Technical University\\
+Ankara, Turkey\\
+Email: e2036457@ceng.metu.edu.tr}}
+
+% make the title area
+\maketitle
+
+\begin{abstract}
+In this paper we will try and compare different approaches towards basic
+Q\&A with recurrent neural networks. We will be using a synthetic dataset
+since it is hard to find story, question, answer triplets in Turkish as in
+any other language. Our experiments have shown that Selective Memory Networks
+are performing a lot better compared to our RNN schemas tried in that project.
+Most problematic part of applying RNN methods to these types of NLP problems
+is that we are limited in number of steps that we can remember due to vanishing
+gradient problem. We were forced to decrease number of words in a sentences
+and number of sentences in each story to unrealistic numbers.
+\end{abstract}
+
+\section{Introduction}
+Q\&A is a problem in which given a story consisting of sentences and a query
+one needs to find answer to these query according to the story. Since we take
+all three components of the problem as texts it is an NLP problem, and since
+text is just a sequence of words or characters, we can use reccurent networks to
+model those problems. But due to vanishing gradient problems, we have a limited
+ability on the length of the sentences and number of sentences in a story.
+
+In this research we will study several different approaches both using vanilla RNNs
+and LSTMs and try to find out how to improve on them what is causing the problems
+that prevents our networks from reaching the minima, how to make them converge faster
+and generalize better.
+
+\section{Data}
+We have generated our data using python, with some predefined object, location and 
+actor names, in which actors simply peform some permutation of 4 actions, get, drop,
+move and go. Afterwards stories and queries are generated according to those actions
+and each query is labeled with its answers according to world state.
+
+Example datum from dataset:\\
+hasan parka gitti .\\
+sinan eva gitti .\\
+hasan servisa gitti .\\
+emre tershanea gitti .\\
+ali boluma gitti .\\
+hasan nerede ?,servis\\
+sinan nerede ?,ev\\
+emre nerede ?,tershane\\
+ali nerede ?,bolum\\
+
+Data is stored in a pickle object, as a list of list of python strings,
+each list contains a story and associated questions,answers as shown above.
+The whole object contains 1000 stories.
+
+\section{Approach}
+\subsection{Basic Approach}
+In this approach, we simply encode each sentence of the story into RNNs hidden state.
+Afterwards we sum up all of these encodings to generate a mixed hidden state, which
+should capture all the information in the story. Finally we feed the query, with the
+mixed hidden state as our initial hidden state and aim to get the answer at the last
+step of RNN. 
+
+We do not expect these approach to perform any good without a lot of training, since
+it threads each sentence equally independent of the question, which makes it harder
+to get the relevant information out of it.
+
+\begin{tikzpicture}[shorten >=1pt,->,draw=black!50, node distance=\layersep]
+  \tikzstyle{input}=[rectangle,fill=black!25,inner sep=0pt,minimum width=3em,minimum height=3em]
+  \tikzstyle{RNN}=[rectangle,fill=red!25,inner sep=0pt,minimum width=1.5em,minimum height=8em]
+  \tikzstyle{output}=[rectangle,fill=black!25,inner sep=0pt,minimum width=3em,minimum height=3em]
+  \node[input,label=above:{NxT}] (h0) {Story};
+  \node[RNN,right=2em of h0] (h1) {};
+  \node[RNN,right=2em of h1,label=above:{NxH}] (h2) {Encoding};
+  \node[output,right=2em of h2,label=above:{1xH}] (h3) {Sum of Encoding};
+  \node[input,below=5em of h3,label=below:{1xT}] (h4) {Query};
+  \node[RNN,left=2em of h4,label=below:{1xH}] (h5) {};
+  \node[output,left=3em of h5,label=below:{1xV}] (h6) {Output};
+  \path 
+    (h0) edge node{$W_e$} (h1)
+    (h1) edge[loop above] node{$W_{h_1}$} (h1)
+    (h1) edge node{$W_{h_1}$}(h2)
+    (h2) edge node{$\Sigma$} (h3)
+    (h3) edge node{$W_{h_2}$} (h5)
+    (h4) edge node{$W_e$} (h5)
+    (h5) edge node{$W_{vocab}$} (h6);
+\end{tikzpicture}
+
+\subsection{Concatenation of the Encodings}
+Instead of adding encodings elementwise we will concatenate them including the
+query encoding and try to train a fully connected layer, which will try to 
+figure out the answer to query using all information present in the story.
+It should perform elicitation of irrelevant information implicitly. That is
+what we expect to from the fully connected layer to learn.
+
+\begin{tikzpicture}[shorten >=1pt,->,draw=black!50, node distance=\layersep]
+  \tikzstyle{input}=[rectangle,fill=black!25,inner sep=0pt,minimum width=3em,minimum height=3em]
+  \tikzstyle{RNN}=[rectangle,fill=red!25,inner sep=0pt,minimum width=1.5em,minimum height=8em]
+  \tikzstyle{output}=[rectangle,fill=black!25,inner sep=0pt,minimum width=3em,minimum height=3em]
+  \node[input,label=above:{NxT}] (h0) {Story};
+  \node[RNN,right=2em of h0] (h1) {};
+  \node[RNN,right=2em of h1,label=above:{NxH}] (h2) {Encoding};
+  \node[input,below=7em of h0,label=below:{1xT}] (h4) {Query};
+  \node[RNN,right=2em of h4,label=below:{1xH}] (h5) {};
+  \node[output,right=3em of h5,label=below:{1x((N+1)*H)}] (h3) {Concatted Story and Query};
+  \node[output,right=3em of h2,label=below:{1xV}] (h6) {Output};
+  \path 
+    (h0) edge node{$W_e$} (h1)
+    (h1) edge[loop above] node{$W_{h_1}$} (h1)
+    (h1) edge node{$W_{h_1}$}(h2)
+    (h2) edge node{Concat} (h3)
+    (h5) edge[loop below] node{$W_{h_2}$} (h5)
+    (h5) edge node{Concat} (h3)
+    (h4) edge node{$W_e$} (h5)
+    (h3) edge node{$W_{vocab}$} (h6);
+\end{tikzpicture}
+
+\subsection{Selective Memory}
+In our basic approach we added encodings of story sentences uniformly, now instead
+we will also encode our query beforehand and add story encodings in accordance with
+similarity to that encoded query, which should perform better by selecting similar
+story sentences and electing irrelevant ones.
+
+The selecting will be done by taking dot product of each story sentence's encoding
+with query sentence's encoding, which will give their similarity score. Then we 
+will perform softmax on those scores to convert them into probabilities. Afterwards
+we will sum all encodings for the story using those weigths.
+
+The idea is quite similar to memory networks, more can be done by inserting additional
+hops by performing the above mentioned steps iteratively and making the prediction at
+the end, which should enable network to learn even higher dependincies to to story
+sentences like where was an object before it was there, or who put the object to its
+current location etc.
+
+
+\begin{tikzpicture}[shorten >=1pt,->,draw=black!50, node distance=\layersep]
+  \tikzstyle{input}=[rectangle,fill=black!25,inner sep=0pt,minimum width=3em,minimum height=3em]
+  \tikzstyle{RNN}=[rectangle,fill=red!25,inner sep=0pt,minimum width=1.5em,minimum height=8em]
+  \tikzstyle{output}=[rectangle,fill=black!25,inner sep=0pt,minimum width=3em,minimum height=3em]
+  \node[input,label=above:{NxT}] (h0) {Story};
+  \node[RNN,right=2em of h0] (h1) {};
+  \node[RNN,right=2em of h1,label=above:{NxH}] (h2) {Encoding};
+  \node[input,below=7em of h0,label=below:{1xT}] (h4) {Query};
+  \node[RNN,right=2em of h4,label=below:{1xH}] (h5) {};
+  \node[output,right=7em of h5,label=right:{1xH}] (h3) {Focused Encoding};
+  \node[RNN,below=3em of h3,label=below:{1xH}] (h6) {};
+  \node[output,below=3em of h6,label=below:{1xV}] (h7) {Output};
+  \path 
+    (h0) edge node{$W_e$} (h1)
+    (h1) edge[loop above] node{$W_{h_1}$} (h1)
+    (h1) edge node{$W_{h_1}$}(h2)
+    (h2) edge node{Dot Product} (h3)
+    (h5) edge[loop below] node{$W_{h_2}$} (h5)
+    (h6) edge[loop right] node{$W_{h_2}$} (h6)
+    (h5) edge node{Dot Product} (h3)
+    (h3) edge node{$W_{h_2}$} (h6)
+    (h4) edge node{$W_e$} (h5)
+    (h4) edge node{$W_e$} (h6)
+    (h6) edge node{$W_{vocab}$} (h7);
+\end{tikzpicture}
+
+\section{Experiments}
+\subsection{Dataset Convertion}
+Our dataset comes as a primitive python object, we first need to convert it to
+a numpy array/matrix. To do so, we read all the dataset and convert it into a
+NxK matrix, where N is the total number of queries and K is the predetermined
+maximum number of words in each story + query + answer, which is 37. We simply
+read a story and all of its queries, then take each query as a seperate datum
+prepend the story to it and move forward. We have 4275 queries in total, the
+last 1000 of them will be used as test data, so we will be training on a
+3275x37 data.
+
+\subsection{Word2Vec}
+Also instead of using strings, we use word2vec notation there are 159 different
+words in total in our dataset, so each word will be represented by an integer in
+range [0,158]. Then we perform embedding of all these words into a K dimensional
+space, so that instead of just representing them with integers and highly 
+discriminating between them, we will be able to learn similarities between those
+words and perform operations based more on those meanings, features of the word not
+according to just some integer.
+
+\subsection{Network}
+For all those approaches, we tried to keep the underlaying architecture same, so
+we have a RNN with 512 hidden units, we set also the cell type to perform either
+LSTM or vanilla RNN operations during the loss calculations. We use 2 different
+parameter set for story sentences and query sentence, but word2vec parameters
+are shared between them.
+
+Due to differences in approaches, the maximum unfoldings and how the loss and
+gradients get calculated changes from approach to approach, approach specific
+implementations are detailed in their own chapter.
+
+\subsection{Basic Approach}
+\subsubsection{Implementation}
+In that experiment we will calculate encodings for each sentence of the story
+then combine them by simply adding and feed them for the encoding of the query.
+Then decode the answer from the encoding of the query. So we will use 7 as our
+unrolling factor, which is the maximum length of a sentence, including start
+and end symbols. For sentences with less words we will perform padding with a
+special null character. For the query sentence we perform unrolling with a factor
+of 5, since there are less words in questions.
+
+\subsubsection{Results}
+We tried to overfit a sample set of 50 stories on that network, within 200 iterations
+we get a loss of 0.1304 which is more than enough for overfitting of the network, since
+we can get a training accuraccy of 1.0 after the loss goes lower than 0.5 for that small
+dataset.
+
+\includegraphics[scale=.3]{basic_loss}
+
+For the training phase we performed 4000 iterations, which yielded a loss around 0.37
+within those iterations we gathered 0.87 training accuracy and 0.38 test accuracy.
+
+So even if we get such a good training accuracy with so little training, it seems like
+our model does not generalize. There are a few reasons behind that which are obvious,
+we treat each sentence of the story equally important, we just sum the encoded story
+and feed it directly to our query, therefore network also tries to learn in which
+story it should focus, which is quite hard with that little dataset and iterations.
+Therefore it fails to generalize and instead tries to memorize the training data,
+which gets it to a better minima.
+
+\subsection{Concatenation of Encodings}
+\subsubsection{Implementation}
+In that experiment we will calculate encodings for each sentence of the story and
+encoding of the query sentence, then combine them by simply concatenating each
+encoding into one big vector and try to learn a fully conencted layer which tries
+to extract the answer using that vector. It will perform selection of story sentences
+implicityl during that step by learning to focus on different parts of the concatenated 
+vector with respect to query's encoding. So as output we simply generate a 1xV vector
+which is the probability of answer being $i^{th}$ word.
+
+So we will use 7 as our unrolling factor, for the embedding of stories which is the 
+maximum length of a sentencein story, including start and end symbols. 
+For sentences with less words we will perform padding with a special null character. 
+For the query sentence we perform unrolling with a factor of 5, since there are less 
+words in questions.
+
+\subsubsection{Results}
+We tried to overfit a sample set of 50 stories on that network, within 100 iterations
+we almost overfitted the data completely with a loss of 0.0372, it overfitted faster than
+our Basic Approach. Reached baseline's performance within 60 iterations. So we converged 3
+times faster. Which can be explained by networks ability to get all encodings of the story
+sentences directly and does not need to learn about how to extract which part of the encoding
+corresponds to which sentence.
+
+\includegraphics[scale=.3]{concat_loss}
+
+For the training phase we performed 4000 iterations, which yielded a loss around 1.5
+which is quite far from our performance compared to basic approach. 
+Within those iterations we gathered 0.66 training accuracy and 0.31 test accuracy.
+Which shows there is still room for improvement, since in the last layer of our network
+we have a fully connected layer with huge dimensions (11*HIDDENSIZE), our network was not
+able to converge to minima with these number of iterations. But despite the lack of that
+convergence we get a very close score to our basic approach. Which implies that our new
+network can generalize better and does not suffer from overfitting as much as our basic
+approach.
+
+That network can give a lot better results by tuning the hyperparameters and performing
+more iterations during the training phase. As can be seen from the loss graph after 2000
+iterations network was not able to go lower in the loss layer, which is most likely caused
+by a big learning rate, that resulted in oscilations around the minima.
+
+\subsection{Selective Memory}
+\subsubsection{Implementation}
+In that experiment we will calculate encodings for each sentence of the story
+and query. Then we will take dot product of each story sentences representation
+and query's encoding to get a similarity scores, afterwards we perform softmax on those
+scores to convert them into probability weigths to be used for determining the focus
+of the network on each memory. Similar to previous approaches we will perform an
+unrolling of 7 units for story and 5 units for query sentence. Afterwards that
+hidden representation will be fed to our RNN as initial hidden state with query
+as input. Then we will get the output from our fully connected layer.
+
+This approach is quite similar to most of the SOTA approaches, we expect it to perform
+a lot better than previous ones. It should be converging faster than concatenation
+method since we have a lot less parameters, also should be able to generalize better
+than our basic approach since instead of summing up representations uniformly we focus
+on sentences that are more likely to be relevant to our query.
+
+\subsubsection{Results}
+We tried to overfit a sample set of 50 stories on that network, within 400 iterations
+we almost overfitted the data completely with a loss of 0.03952, it overfitted slower than
+our Basic Approach. Reached baseline's performance within 300 iterations, but in last 100
+iteration it performed far more faster than our Basic Approach and converged more than 5
+times. It is most likely to be caused by learning of the query encoding parameters. Since
+we use a different encoding set for query and it is importance is quite high in correspondence
+to our Basic Approach, it either keeps or discards sentences of the story depending on that
+encoding. After it has been learned, the network converges a lot faster.
+
+\includegraphics[scale=.3]{selective_loss}
+
+For the training phase we performed 6000 iterations, which yielded a loss around 0.05
+which is far more superior to our basic approach, 7 times better to be precise. 
+Within those iterations we gathered 0.995 training accuracy and 0.52 test accuracy.
+Which shows overfitting, since we almost answered every query in the training set
+but get only half of the questions correct in the test case. Which was not possible
+in our Basic Approach, it was only able to get 0.87 training set accuracy and could
+not overfit the dataset, despite having same number of parameters. Which shows
+our Selective Memory Network approach can perform a lot better by introducing more
+stochastic methodolgies to overcome overfitting.
+
+\pagebreak
+\section{Conclusion}
+As can be seen from the experiments, Selective Memory Networks are best choice and
+by introducing more stochastic methods to the network one can make sure the overfitting
+is less severe and generalization can be achieved. In comparison to mentioned concatenation
+method, we are likely to converge faster but suffer from overfitting. So the concatenation
+networks can perform quite close to selective memory networks given more resources to
+perform a lot more training. Our basic approach is most likely to fail in any real world
+data since it was only able to overfit to that spesific dataset and didn't generalize
+to even test data which come from very same nature as the training. To summarize the
+study we provide a table showing our accuracy for test and training data:
+
+\begin{tabular}{|l|l|l|}
+  \hline
+  Approach & Training Acc & Test Acc \\ \hline
+  Basic Approach & 0.87 & 0.38 \\ \hline
+  Concatenation of Encodings & 0.66 & 0.31 \\ \hline
+  Selective Memory & 0.995 & 0.52 \\ \hline
+\end{tabular}
+
+\section{Future Work}
+\subsection{Selective Memory}
+One should try adding dropout and tuning of hyperparameters to overcome the overfitting
+problem of the architecture to see if it is able to generalize better.
+
+\subsection{Concatenation of Encodings}
+The hyperparameters of the network should be tuned to allow it perform more learning,
+in our experiments we always get stuck after 2000 iterations, but it should be possible
+to learn better, overfit at least since we have only 3275 datapoints and 11*128*256 parameters
+at the fuly connected layer, which should be more than enough to overfit.
+
+\section{Project Materials}
+All of the material used in this project is available under \url{https://github.com/kadircet/CENG/tree/master/783/project}.
+It includes the dataset generator, source codes for the network, both architecture and utilities,
+they are all implemented in python without any existing framework, during the homeworks
+of the course METU-CENG783.
+
+\pagebreak
+\begin{thebibliography}{1}
+\bibitem{TowAIComp}
+Jason Weston, Antoine Bordes, Sumit Chopra, Alexander M. Rush, Bart van Merriënboer, Armand Joulin, Tomas Mikolov,
+    \emph{Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks}
+\bibitem{MemNetw}
+Jason Weston, Sumit Chopra, Antoine Bordes, 
+    \emph{Memory Networks}
+\bibitem{MSteve}
+    Merity, Steve. \emph{Question Answering on the Facebook BAbi Dataset Using Recurrent Neural Networks}
+\bibitem{Ceng783}
+    Kalkan, Sinan. \emph{METU CENG 783 Lecture Notes}
+\end{thebibliography}
+\end{document}
+

@@ -47,7 +47,7 @@ class SeqNN(object):
       self.params[k] = v.astype(self.dtype)
 
 
-  def loss(self, data, sample=False, T=128, T2=7):
+  def loss(self, data, sample=False, T=31, T2=5):
     """
     suports: (N,T)
         Each story has N support sentences(not fixed)

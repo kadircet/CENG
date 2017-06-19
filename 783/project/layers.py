@@ -417,7 +417,7 @@ def rnn_forward(x, h0, Wx, Wh, b):
   return h, cache
 
 
-def rnn_backward(dh, cache, T=7):
+def rnn_backward(dh, cache, T=5):
   """
   Compute the backward pass for a vanilla RNN over an entire sequence of data.
   
@@ -682,7 +682,7 @@ def lstm_forward(x, h0, Wx, Wh, b):
   return h, cache
 
 
-def lstm_backward(dh, cache, T=7):
+def lstm_backward(dh, cache, T=5):
   """
   Backward pass for an LSTM over an entire sequence of data.]
   

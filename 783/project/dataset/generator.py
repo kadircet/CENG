@@ -22,7 +22,7 @@ class Move(Action):
     objects[0].location = locations[0]
     actors[0].location = locations[0]
 
-    return actors[0].name + " " + objects[0].name + " 'yi " + objects[0].location.name + " 'a tasidi ."
+    return actors[0].name + " " + objects[0].name + "yi " + objects[0].location.name + "a tasidi ."
 
 class Get(Action):
   def act(self, objects, locations, actors):
@@ -34,7 +34,7 @@ class Get(Action):
     actors[0].has.append(objects[0])
     actors[0].location = objects[0].location
 
-    return actors[0].name + " " + objects[0].name + " 'yi " + objects[0].location.name + " 'dan aldi ."
+    return actors[0].name + " " + objects[0].name + "yi " + objects[0].location.name + "dan aldi ."
 
 class Drop(Action):
   def act(self, objects, locations, actors):
@@ -43,7 +43,7 @@ class Drop(Action):
     objects[0].location = actors[0].location
     actors[0].has.remove(objects[0])
 
-    return actors[0].name + " " + objects[0].name + " 'yi " + objects[0].location.name + " 'a birakti ."
+    return actors[0].name + " " + objects[0].name + "yi " + objects[0].location.name + "a birakti ."
 
 class Go(Action):
   def act(self, objects, locations, actors):
@@ -51,7 +51,7 @@ class Go(Action):
     for obj in actors[0].has:
       obj.location = actors[0].location
 
-    return actors[0].name + " " + actors[0].location.name + " 'a gitti ."
+    return actors[0].name + " " + actors[0].location.name + "a gitti ."
 
 class World:
   def __init__(self):
@@ -70,7 +70,7 @@ class World:
       actor.has = []
     sLen = slen
     if slen==-1:
-      sLen = random.randint(1,10)
+      sLen = random.randint(1,5)
     acts = [Move(), Get(), Drop(), Go()]
     story = []
     objs = []
