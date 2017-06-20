@@ -1,0 +1,242 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{amsmath}
+
+
+\usepackage[hmargin=3cm,vmargin=6.0cm]{geometry}
+%\topmargin=0cm
+\topmargin=-2cm
+\addtolength{\textheight}{6.5cm}
+\addtolength{\textwidth}{2.0cm}
+%\setlength{\leftmargin}{-5cm}
+\setlength{\oddsidemargin}{0.0cm}
+\setlength{\evensidemargin}{0.0cm}
+
+%misc libraries goes here
+\usepackage{tikz}
+\usetikzlibrary{automata,positioning}
+
+\begin{document}
+
+\section*{Student Information } 
+%Write your full name and id number between the colon and newline
+%Put one empty space character after colon and before newline
+Full Name : Kadir Cetinkaya \\
+Id Number : 2036457 \\
+
+% Write your answers below the section tags
+\section*{Answer 1}
+
+\subsection*{a.}
+The words in that language has the form $x^ny^nz^k$ or $x^ny^kz^n$ where $n\ge 0, k\ge 0$.
+
+\subsection*{b.}
+The words in the langauge has the form $a\$ba^Rc$, where $a,b,c\in \{x,y\}^*$ and 
+$a^R$ is the reverse of $a$.
+
+\subsection*{c.}
+$(x(xxxxxxxxx)^*)+((z+y)(z+y))^*$
+
+
+
+\section*{Answer 2}
+
+\subsection*{a.}
+Let's assume the language is CFL, then according to pumping lemma $\exists n>0$ such that,
+$\forall z\in L_1$ such that $|z|\ge n$, $\exists u,v,w,x,y\in \{1,2\}^*$ such that $z=uvwxy$,
+$|vwx|\le n$, $|vx|>0$, $uv^iwx^iy\in L_1$, $\forall i\ge 0$.
+
+Let's examine $z=1^n2^n2^n1^n2^{2n}\in L_1$:\\
+
+i) Let's say string $vx$ contains any $1$'s. Since $|vwx|\le n$, those $1$'s must be only in the
+first block or the second block of $1$'s, therefore when we pump them up we can only increase
+number of $1$'s in the one block, which would make our word out of the language. So we get a
+contradiction, therefore $vx$ contains no $1$'s.
+
+ii) Let's say string $vx$ contains any $2$'s, by part i) we know that it does not contain any
+$1$'s, and since $|vwx|\le n$ those $2$'s can only be in the middle part of $z$ or at the end of
+$z$. Let's say those $2$'s are in the middle, then if we pump them up even without violating
+the reverse string property, we can't increase the $2$'s at the end which would make the new
+word out of the language, so $2$'s in the $vx$ must be coming from the end of the $z$. In
+that case if we pump them up, since we can't increase the length of the first part of the
+string we would again make the new word out of the language. So we get a contradiction again.
+Therefore $vx$ contains no $2$'s.
+
+By part i) and ii) since $vx$ can't contain any $1$'s or $2$'s and those are the only letters
+from our alphabet, $|vx|=0$. But that's against the pumping lemma so our assumption is wrong.
+Therefore the language $L_1$ is not a CFL.
+
+\subsection*{b.}
+$A\cap B=\{e\}$, therefore $A\setminus B=A\setminus \{e\}$. So we can generate $L_2$ with the
+following grammer:\\
+$$S\rightarrow xAz | yBz$$
+$$A\rightarrow xAz | B$$
+$$B\rightarrow yBz | e$$
+
+where $e$ inticates empty string.
+
+\subsection*{c.}
+Let's assume the language is CFL, then according to pumping lemma $\exists n>0$ such that,
+$\forall z\in L_3$ such that $|z|\ge n$, $\exists u,v,w,x,y\in \{a,b,c\}^*$ such that $z=uvwxy$,
+$|vwx|\le n$, $|vx|>0$, $uv^iwx^iy\in L_3$, $\forall i\ge 0$.
+
+Let's examine $z=a^nb^nc^{n*n}\in L_3$:\\
+
+i) Let's say string $vx$ contains any $a$'s, since $|vwx|\le n$ then $vx$ can't contain any $c$.
+So, if we pump up $v$ and $x$ the number of $a$'s would increase, but number of $c$'s wouldn't
+change which would make the new word out of the language, so $vx$ can't contain any $a$'s.
+
+ii) Let's say string $vx$ contains at least 1 $b$, since $|vwx|\le n$ it can't contain more than 
+$n-1$ $c$'s. So if we pump up by one $v$ and $x$, the number of $b$'s increase by at least one,
+therefore number of $c$'s must increase at least by $n$, but that's not possible since we have
+at most $n-1$ $c$'s, therefore $vx$ can't contain any $b$'s.
+
+iii) By part i) and ii) $vx$ can contain only $c$'s, let's say $vx$ has at least 1 $c$, since
+it doesn't contain any $a$ or $b$ if we pump down $v$ and $x$ the new word would have less $c$'s
+but same amount of $a$'s and $b$'s which would make the new word out of the language. So $vx$
+doesn't contain any $c$'s.
+
+By part i), ii) and iii) $vx$ can't contain any $a$, $b$ or $c$ and those are the only letters
+from our alphabet, therefore $|vx|=0$, which contradicts with pumping lemma. Therefore our
+assumption is wrong. So the language $L_3$ is not a CFL.
+
+\subsection*{d.}
+No word in $L$ starts with $2$, so we have every word starting with $2$ in $L_4$, for words
+starting with $1$ we have 3 cases, if the string contains $21$ as a substring than it can't be
+in $L$, therefore it is in $L_4$. If it doesn't than it means word is of the form $1^n2^m$ and
+for it to be in $L_4$ we must have either strictly more $1$'s than $2$'s or strictly more $2$'s
+than twice the amount of $1$'s. Also since the empty string is in $L$, we can't have empty string
+in $L_4$. We can express it like this:
+
+$$S\rightarrow 2G | 1S_1 | S_22 | 1G21G$$
+$$G\rightarrow 1G | 2G | e$$
+$$S_1\rightarrow 1S_12 | 1S_1 | e$$
+$$S_2\rightarrow 1S_222 | S_22 | e$$
+
+where $e$ indicates empty string.
+
+
+\section*{Answer 3}
+
+
+\subsection*{a.}
+Let $M=(Q, \Sigma, \Gamma, \delta, q_0, F)$, where $Q=\{q_0,q_1,q_2,q_3\}$, $\Sigma =\{0,1\}$,
+$\Gamma =\{A,B\}$, $F=\{q_3\}$ and $\delta =
+\begin{aligned}[t]
+	& \{(q_0, 0, \epsilon, q_1, A), (q_0, x, \epsilon, q_3, \epsilon), (q_0, 1, \epsilon, q_1, B),
+	(q_1, x, y, q_1, yy), (q_1, 0, A, q_2, A), \\ 
+	& (q_1, 1, B, q_2, B), (q_2, x, y, q_2, \epsilon),
+	(q_2, 0, A, q_3, \epsilon), (q_2, 1, B, q_3, \epsilon)\ | x\in \{0,1\}, y\in \{A,B\}\}.
+\end{aligned} $
+\\
+Basically, it starts in state $q_0$ with empty stack, reads the first character of the input
+and either nondeterministically jumps to $q_3$ with empty stack, for matching the strings with
+length 1, or pushes $A$ to stack if it's $0$, pushes $B$ otherwise and goes on to state $q_1$. 
+In that state it processes the input upto the middle point and pushes a copy of the top element 
+to the stack, when it reads a character same as the first character of the input, it controls
+that by the top element of the stack since we always push $A$ if the first element is $0$
+and $B$ otherwise, it jumps to $q_2$ nondeterministically without pushing a new element.
+Also in $q_1$ since it pushes a new symbol to the stack for every character except the middle
+one, we count the number of characters in the first half. In state $q_2$, we pop one element
+from the stack for every character of the input and jump to $q_3$ nondeterministically with
+popping the top element if it's equal to first character of the input, checked in the same 
+manner as above. The state $q_3$ is final and there is no outgoing transition, therefore
+the whole string must be processed and the stack must be empty for the word to be accepted
+and it is only possible if input has length 1 or transition to $q_2$ occured exactly at 
+the middle character and transition to $q_3$ occured exactly at the last character of the 
+input, which can happen only on the characters same as the first character of the input.
+
+\subsection*{b.}
+$(q_0, 01000, \epsilon )\vdash_M (q_1, 1000, A)\vdash_M (q_1, 000, AA)\vdash_M (q_2, 00, AA)\vdash_M
+(q_2, 0, A)\vdash_M (q_3, \epsilon, \epsilon)$
+
+\subsection*{c.}
+$(q_0, 00100, \epsilon )$ in start we have 2 possibilities, we can either go to $q_1$ or $q_3$,
+it is obvious that if we jump to $q_3$ we will get stuck, so let us check the case we go for
+$q_1$;
+
+$(q_0, 00100, \epsilon )\vdash_M (q_1, 0100, A)$, in that point we have 2 possible paths either to $q_2$
+or $q_1$, lets examine the $q_2$ path first.
+
+$(q_0, 00100, \epsilon )\vdash_M (q_1, 0100, A)\vdash_M (q_2, 100, A)\vdash_M (q_2, 00, \epsilon)$
+we get stuck since there is no transition from $q_2$ with empty stack, so let us look at the
+other option.
+
+$(q_0, 00100, \epsilon )\vdash_M (q_1, 0100, A)\vdash_M (q_1, 100, AA)\vdash_M (q_1, 00, AAA)$, in that
+point we also have 2 possible paths but since there are more elements in stack than the remaining
+characters of the input, and we pop at most one element per each input character no matter
+which path we take, we won't be able to clear the stack, so we will get stuck or finish in a
+nonaccepting state.
+
+Since there is no computation acceptiong $00100$, it is not in the $L(M)$.
+
+\section*{Answer 4}
+
+\subsection*{a.}
+\begin{itemize}
+	\item 
+		$L_1\cup (L_2\setminus R) =L_1\cup (L_2\cap \overline{R})$, since set difference is 
+		intersection with complement of the set. $L_2\cap \overline{R}$ is a CFL since
+		complement of a regular language is regular and intersection of a CFL and a regular
+		language is also a CFL. $L_1\cup (L_2\cap \overline{R})$ is also a CFL since union
+		of two CFL's is again a CFL and since it is equal to $L_1\cup (L_2\setminus R)$,
+		given language is also a CFL.
+	\item
+		Let $R,L_1$ and $L_2$ be defined on the alphabet $\Sigma$, moreover let $R=\Sigma^*$.
+		Then, $R\setminus (L_1\cup L_2) = R\cap \overline{(L_1\cup L_2}) = \overline{(L_1\cup L_2)}$.
+		Since $R$ is the set of all words that can be generated in that alphabet and by the
+		definition of set difference. $L_1\cup L_2$ is a CFL since CFL's are closed under union,
+		but their complement is not necessarilly a CFL. Therefore given language is not
+		necessarilly a CFL.
+\end{itemize}
+
+\subsection*{b.}
+Yes, $G$ is ambiguous. Because we can generate word $xxy$ both using the ruleset,\\
+$S\rightarrow XY \rightarrow XxY \rightarrow xxY \rightarrow xxy$ and \\
+$S\rightarrow xxY \rightarrow xxy$.
+
+\begin{tikzpicture}[shorten >=1pt, on grid, auto]
+	\node (S0) {S};
+	\node (X1) [below left=of S0] {X};
+	\node (Y1) [below right=of S0] {Y};
+	\node (X2) [below left=of X1] {X};
+	\node (x2) [below right=of X1] {x};
+	\node (y2) [below =of Y1] {y};
+	\node (x3) [below =of X2] {x};
+	\path[->]
+	(S0) edge (X1)
+			edge (Y1)
+	(X1) edge (X2)
+	(X1) edge (x2)
+	(Y1) edge (y2)
+	(X2) edge (x3);
+\end{tikzpicture}
+\hspace{3cm}
+\begin{tikzpicture}[shorten >=1pt, on grid, auto]
+	\node (S0) {S};
+	\node (X1) [below left=of S0] {xx};
+	\node (Y1) [below right=of S0] {Y};
+	\node (y2) [below =of Y1] {y};
+	\path[->]
+	(S0) edge (X1)
+			edge (Y1)
+	(Y1) edge (y2);
+\end{tikzpicture}
+
+\subsection*{c.}
+Let $L=\{aa^R2^{|a|}|a\in \{1,2\}^*\}$, M can recognize that language by pushing the input
+while reading $a$ to one of its stacks, than nondeterministically jumping to reading $a^R$
+part of the input and while reading that part, it can pop from the stack it was pushing
+before and compare the input character with the top of the stack, while pushing into
+its other stack an element to measure the length of the word $a$ and than it can
+nondeterministically jump to reading $2^{|a|}$ part of the input by popping from its
+latter stack for every $2$ it had read from the input. Whereas N, a PDA with one stack
+can't recognize that string as in question 2 part a, that language is shown to be not context
+free. Since we can recognize a language with M that we weren't able to recognize with N,
+M is more powerful than N.
+
+\end{document}
+
+​
+
