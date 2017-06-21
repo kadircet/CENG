@@ -14,7 +14,7 @@
 
 ## CENG 336 Introduction to Embedded Systems Development
 
-## CENG 350 Software Engineering
+## [CENG 350 Software Engineering](https://github.com/kadircet/CENG/tree/master/350)
 
 ## [CENG 351 Data Management and File Structures](https://github.com/kadircet/CENG/tree/master/351)
 
