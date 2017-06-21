@@ -16,18 +16,21 @@
 
 ## CENG 350 Software Engineering
 
-## CENG 351 Data Management and File Structures
+## [CENG 351 Data Management and File Structures](https://github.com/kadircet/CENG/tree/master/351)
 
-## CENG 384 Signals and Systems for Computer Engineers
+## [CENG 384 Signals and Systems for Computer Engineers](https://github.com/kadircet/CENG/tree/master/384)
 
-## MATH 407 Game Theory
+## [MATH 407 Game Theory](https://github.com/kadircet/CENG/tree/master/407)
 
-## CENG 435 Data Communications and Networking
+## [CENG 435 Data Communications and Networking](https://github.com/kadircet/CENG/tree/master/435)
+### [HW1](https://github.com/kadircet/CENG/tree/master/435/hw1)
+### [HW2](https://github.com/kadircet/CENG/tree/master/435/hw2)
 
 ## [CENG 783 Deep Learning](https://github.com/kadircet/CENG/tree/master/783)
 Homeworks and project done during 2016-2017 Spring Semester.
 No learning framework has been used in neither homeworks nor the project all
-code has been written in python using only numpy.
+codes have been written in python from scratch using only numpy, without help
+of any frameworks.
 
 ### [HW1](https://github.com/kadircet/CENG/tree/master/783/HW1)
 k-Nearest Neighbor
