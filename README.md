@@ -1,20 +1,43 @@
 # METU CENG 2013-Present
 
-## CENG 232 Logic Design
+## [CENG 232 Logic Design](https://github.com/kadircet/CENG/tree/master/232)
+Some verilog stuff
 
-## CENG 242 Programming Language Concepts
+## [CENG 242 Programming Language Concepts](https://github.com/kadircet/CENG/tree/master/242)
+Many tasks done in prolog, haskell, and c++ to understand concepts in different
+programming languages.
 
-## CENG 280 Formal Languages and Abstract Machines
+## [CENG 280 Formal Languages and Abstract Machines](https://github.com/kadircet/CENG/tree/master/280]
 
-## CENG 315 Algorithms
+## [CENG 315 Algorithms](https://github.com/kadircet/CENG/tree/master/315)
 
-## CENG 331 Computer Organization
+## [CENG 331 Computer Organization](https://github.com/kadircet/CENG/tree/master/331)
+### Bomb Lab
+A task which aims to make people familiar with reverse engineering
 
-## CENG 334 Introduction to Operating Systems
+### Attack Lab
+A task which aims to teach people how to smash the stack for fun & profit
 
-## CENG 336 Introduction to Embedded Systems Development
+### Performance Lab
+A task which aims to teach optimization methodoligies for x86(64) architecture
+
+## [CENG 334 Introduction to Operating Systems](https://github.com/kadircet/CENG/tree/master/334)
+### HW1
+Simple shell for linux.
+
+### HW2
+Threading mutexes and semaphores practice for linux.
+
+### HW3
+EXT2 filesystem defragmentation which moves every data block to begining of the disk.
+
+## [CENG 336 Introduction to Embedded Systems Development](https://github.com/kadircet/CENG/tree/master/336)
+Codes developed to perform various tasks on a PIC18F8722 based board. Both in assembly and C,
+even a simple RTOS project.
 
 ## [CENG 350 Software Engineering](https://github.com/kadircet/CENG/tree/master/350)
+### SRS
+### SDD
 
 ## [CENG 351 Data Management and File Structures](https://github.com/kadircet/CENG/tree/master/351)
 
