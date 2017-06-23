@@ -7,7 +7,7 @@ Some verilog stuff
 Many tasks done in prolog, haskell, and c++ to understand concepts in different
 programming languages.
 
-## [CENG 280 Formal Languages and Abstract Machines](https://github.com/kadircet/CENG/tree/master/280]
+## [CENG 280 Formal Languages and Abstract Machines](https://github.com/kadircet/CENG/tree/master/280)
 
 ## [CENG 315 Algorithms](https://github.com/kadircet/CENG/tree/master/315)
 
