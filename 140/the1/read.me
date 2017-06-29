@@ -1,0 +1,18 @@
+The system is classic, just put your the1 code named as the1.c into this directory.
+Then run the "run.sh" script, either with ./run.sh or bash run.sh.
+This script first runs a python script if no dataset is generated before,
+
+the python script will generate 1 million random integers, all integers are at 
+least 0 and at most 2^140-1, the upper limit is a little bit higher then 36!-1,
+but the probability of getting a number bigger than that is low, even if it
+happens, you will get an error, just re run the script. If it takes forever after
+dataset is generated, than your algorithm might be slow, open the converter.py
+and just change 1000000 in the for loop to a lesser value.
+
+if you want a new dataset just delete in.txt or out.txt in this directory, then
+re-run the script.
+
+btw it does not check for eof, every input is terminated with eol so use ekin's
+tester to make sure that u r controlling eof properly.
+
+//kadircet

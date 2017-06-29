@@ -1,0 +1,8 @@
+just put your the2.py into this folder and then run checker.py
+
+make sure your code does not contain any input methods, it must have a function
+named cm, checker works with giving that function the desired parameters.
+
+please use the facebook group for bugs & hugs
+
+kadircet

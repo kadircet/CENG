@@ -1,5 +1,11 @@
 # METU CENG 2013-Present
 
+## [CENG 111 Introduction to Computer Engineering](https://github.com/kadircet/CENG/tree/master/111)
+Some intro to ceng/cs stuff written in python
+
+## [CENG 140 C Programming](https://github.com/kadircet/CENG/tree/master/140)
+Every assignment given in the course
+
 ## [CENG 232 Logic Design](https://github.com/kadircet/CENG/tree/master/232)
 Some verilog stuff
 
@@ -56,29 +62,29 @@ codes have been written in python from scratch using only numpy, without help
 of any frameworks.
 
 ### [HW1](https://github.com/kadircet/CENG/tree/master/783/HW1)
-k-Nearest Neighbor
-SVM/Softmax Classifier
-Fully Connected Networks for regression/classification
-Image classification
-Next Character Prediction using Fully Connected Networks
+k-Nearest Neighbor  
+SVM/Softmax Classifier  
+Fully Connected Networks for regression/classification  
+Image classification  
+Next Character Prediction using Fully Connected Networks  
 
 ### [HW2](https://github.com/kadircet/CENG/tree/master/783/HW2)
-Denoising Auto Encoders
-CNNs
-Saliency Maps
-Fooling CNNs
-Deep Dreaming
-CIFAR-10 Dataset
-TinyImageNet-100-A
+Denoising Auto Encoders  
+CNNs  
+Saliency Maps  
+Fooling CNNs  
+Deep Dreaming  
+CIFAR-10 Dataset  
+TinyImageNet-100-A  
 
 ### [HW3](https://github.com/kadircet/CENG/tree/master/783/HW3)
-Vanilla RNNs
-LSTMs
-Image Captioning using Microsoft COCO Dataset
-Next Character Prediction using RNNs and LSTMs
+Vanilla RNNs  
+LSTMs  
+Image Captioning using Microsoft COCO Dataset  
+Next Character Prediction using RNNs and LSTMs  
 
 ### [Project](https://github.com/kadircet/CENG/tree/master/783/project)
-Basic Question Answering using synthetic dataset generated in Turkish.
-Dataset Generator
-3 Different approaches using RNNs and Fully connected layers
-Comparison of those approaches
+Basic Question Answering using synthetic dataset generated in Turkish.  
+Dataset Generator  
+3 Different approaches using RNNs and Fully connected layers  
+Comparison of those approaches  
