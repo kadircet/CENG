@@ -13,7 +13,6 @@ db.*
 *.pdf
 *.h5
 *.o
-*.c
 *.jpeg
 *.JPEG
 *.jpg
